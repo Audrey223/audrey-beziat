@@ -24,6 +24,7 @@ font-size: 4em;
 	h5{
 
 	}
+
 	.droitepassionp{
 		grid-column: 2/3;
 		padding-top: 2em;
@@ -113,10 +114,13 @@ font-size: 4em;
 		padding-bottom: 4em;;
 	}
 	.horizdeco{
-	  max-width: 490px;
+
+width:100%;
 	}
 	.droitedecodeur{
 		padding-top: 3em;
+
+
 	}
 	.imgmeteo{
 	  max-width: 560px;
@@ -169,10 +173,17 @@ font-size: 4em;
 		width:100%;
 		height:360px;
 	}
+	.gauchedeco{
+	  max-width: 500px;
+	}
 }
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
+	.gauchedeco{
+	  max-width: 800px;
+	}
+
 	.gauchemusee{
 		width:100%
 	}
@@ -191,7 +202,7 @@ font-size: 4em;
 	font-size: 5em;
 	}
 	p{
-		font-size: 1.4em;
+		font-size: 1.7em;
 	}
 	.gd-2col {
 		width: 100%;
@@ -262,7 +273,8 @@ font-size: 4em;
 	  padding-bottom: 2em;;
 	}
 	.horizdeco{
-	  max-width: 490px;
+	  max-width: 890px;
+		width:100%;
 	}
 	.droitedecodeur{
 		padding-top: 3em;
@@ -311,6 +323,9 @@ font-size: 4em;
 
 /*laptops, desktops*/
 @media (min-width: 1025px) {
+	.gauchedeco{
+	  max-width: 300px;
+	}
 	#top{
 		padding-top: 0;
 	}
@@ -447,6 +462,9 @@ width:624px;
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
+	.gauchedeco{
+	  max-width: 378px;
+	}
 	.flex{
 	  display: flex;
 	  justify-content: space-between;
@@ -490,6 +508,7 @@ width:624px;
 	}
 	.horizdeco{
 	  max-width: 690px;
+		width:100%;
 	}
 	.italic{
 	  font-family: var(--p-font);
