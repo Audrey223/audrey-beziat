@@ -305,7 +305,20 @@ float: right;
   color: white;
 }
 
+/*-------------musee romanite*/
 
+.romanite2{
+width:624px;
+ height:624px;
+}
+.romaniteright{
+  width:351px;
+   height:624px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
 /*-------------a propos*/
 
 .description{
