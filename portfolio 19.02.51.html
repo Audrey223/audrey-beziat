@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="icon" type="images/logo.png" sizes="32x32" href="images/logo.png">
+  <link rel="stylesheet" href="css/typo.css">
+  <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="gd-3col">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <p class="studio">Studio de design graphique</p>
+      <div id="menu1"><img class="menu" src="images/menu.png" alt="logo"></div>
+    </div>
+  </header>
+
+<h3 class="centre" id="projetsportfolio">PROJETS</h3>
+
+<div class="projets"><a href="culturebox.html">
+<div class="gd-3colportfolio">
+<div></div>
+<div class="nomprojet">
+  <h1>CULTUREBOX</h1>
+  <h3 class="centre">IDENT TV</h3>
+</div>
+<img class="portfolio" src="images/portfolio/culturebox.jpg" alt="">
+</div></a>
+</div>
+
+<div class="projets"><a href="decodeur.html">
+<div class="gd-3colportfolio">
+  <img class="portfolio" src="images/portfolio/decodeur.jpg" alt="">
+<div class="nomprojet">
+  <h1>DÉCODEUR <br>TYPOGRAPHIQUE</h1>
+  <h3 class="centre">MAGAZINE</h3>
+</div>
+<div></div>
+</div></a>
+</div>
+
+<div class="projets"><a href="passion-exces.html">
+<div class="gd-3colportfolio">
+<div></div>
+<div class="nomprojet">
+  <h1>PASSION DE L'EXCÈS OU EXCÈS DE PASSION</h1>
+  <h3 class="centre">SPORTS EXTRÊMES</h3>
+</div>
+<img class="portfolio" src="images/portfolio/passionexces.jpg" alt="">
+</div></a>
+</div>
+
+<div class="projets"><a href="musee-romanite.html">
+<div class="gd-3colportfolio">
+  <img class="portfolio" src="images/portfolio/musee-romanite.jpg" alt="">
+
+<div class="nomprojet">
+  <h1>MUSÉE DE LA ROMANITÉ</h1>
+  <h3 class="centre">EXPOSITION CULTURELLE</h3>
+</div>
+<div></div>
+</div></a>
+</div>
+
+<div class="projets"><a href="regate.html">
+<div class="gd-3colportfolio">
+<div></div>
+<div class="nomprojet">
+  <h1>LA RÉGATE</h1>
+  <h3 class="centre">TRANSPORT DE MARCHANDISES</h3>
+</div>
+<img class="portfolio" src="images/portfolio/regate.jpg" alt="">
+</div></a>
+</div>
+
+<div class="projets"><a href="naughty-games.html">
+<div class="gd-3colportfolio">
+  <img class="portfolio" src="images/portfolio/naughty-games.jpg" alt="">
+
+<div class="nomprojet">
+  <h1>NAUGHTY GAMES</h1>
+  <h3 class="centre">JEUX DE MAINS</h3>
+</div>
+<div></div>
+</div></a>
+</div>
+
+<div class="projets"><a href="meteo.html">
+<div class="gd-3colportfolio">
+<div></div>
+<div class="nomprojet">
+  <h1>MÉTÉO BORDEAUX</h1>
+  <h3 class="centre">REBRANDING</h3>
+</div>
+<img class="portfolio" src="images/portfolio/meteo.jpg" alt="">
+</div></a>
+</div>
+    <div class="ligne"></div>
+<footer>
+  <div class="gd-2col">
+    <h1>UNE QUESTION ? <br>PARLONS-EN !</h1>
+    <div class="infos">
+      <h3>33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h3>
+      <div class="reseaux">
+      <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
+      <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/instagram.png" alt="instagram"></a></div>
+    </div>
+  </div>
+  <p class="copyright">© 2021 Développé par Audrey Béziat.</p>
+</footer>
+
+
+<div id="overlay" class="overlay">
+  <div id="popup" class="popup">
+
+    <div>
+      <img id="close" src="images/close.svg" alt="">
+      <img class="logo" src="images/logo.png" alt="logo">
+    </div>
+
+
+    <div class="pages">
+      <a href="index.html"><h1>Accueil</h1></a>
+      <a href="portfolio.html"><h1>Portfolio</h1></a>
+      <a href="a-propos.html"><h1>À propos</h1></a>
+    </div>
+    <div class="reseaux">
+      <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
+      <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
+    </div>
+    <h3 id="menu">33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h3>
+
+  </div>
+</div>
+
+  <script>
+    var overlay = document.getElementById('overlay');
+    var popup = document.getElementById('popup');
+
+    var close = document.getElementById('close');
+    close.addEventListener('click', ferme);
+    function ferme() {
+    overlay.style.display = 'none';
+    }
+
+    var menu = document.getElementById('menu1');
+    menu.addEventListener('click', open);
+    function open() {
+    overlay.style.display = 'block';}
+
+  </script>
+</body>
+
+</html>
