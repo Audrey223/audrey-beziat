@@ -2,15 +2,29 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 381px) and (max-width: 767px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 20em;
+	}
+		.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
 
+	}
+	.pages{padding-top: 15em;}
+
+h1 .menu{
+	font-size: 3.5em;
+}
 	html {
 		font-size: 10px;
 	}
 	p{
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 	h1{
-font-size: 4em;
+font-size: 5em;
 	}
 	h2{
 
@@ -176,10 +190,53 @@ width:100%;
 	.gauchedeco{
 	  max-width: 500px;
 	}
+	.gd-3colportfolio {
+	width: 100%;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1,1fr);
+		margin: 0 auto;
+	}
+	.portfolio{
+	  max-width: 400px;
+	  max-height: 400px;
+	  margin:0 auto;
+	}
+	.projhoriz-accueil{
+	  max-width: 564px;
+				width: 100%;
+	  padding-bottom: 2em;
+	}
+	.projvert-accueil{
+	  max-width: 564px;
+		width: 100%;
+	  padding-bottom: 2em;
+	}
 }
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 10em;
+	}
+	.pages{padding-top: 10em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
+	.projhoriz-accueil{
+	  max-width: 764px;
+			width: 100%;
+	  padding-bottom: 2em;
+	}
+	.projvert-accueil{
+	  max-width: 750px;
+			width: 100%;
+	  padding-bottom: 2em;
+	}
 	.gauchedeco{
 	  max-width: 800px;
 	}
@@ -199,10 +256,10 @@ width:100%;
 		font-size: 11px;
 	}
 	h1{
-	font-size: 5em;
+	font-size: 7em;
 	}
 	p{
-		font-size: 1.7em;
+		font-size: 1.6em;
 	}
 	.gd-2col {
 		width: 100%;
@@ -319,10 +376,33 @@ width:100%;
 		width:100%;
 		height:360px;
 	}
+	.gd-3colportfolio {
+	width: 100%;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1,1fr);
+		margin: 0 auto;
+	}
+	.portfolio{
+	  max-width: 400px;
+	  max-height: 400px;
+	  margin:0 auto;
+	}
 }
 
 /*laptops, desktops*/
 @media (min-width: 1025px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 2em;
+	}
+	.pages{padding-top: 7em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
 	.gauchedeco{
 	  max-width: 300px;
 	}
@@ -339,7 +419,7 @@ h1{
 font-size: 5.5em;
 }
 p{
-font-size: 1.3em;
+font-size: 1.5em;
 }
 .gd-2col {
 	width: 100%;
@@ -386,6 +466,15 @@ width: 100%;
 	display: grid;
 	grid-gap: 45px;
 		grid-template-columns: repeat(3, 1fr);
+}
+.gd-3colportfolio {
+width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: 29% 42% 29%;
+	align-items: center;
 }
 .gd-2col-naughty {
 	width: 100%;
@@ -458,12 +547,33 @@ width:624px;
 	width:100%;
 	height:540px;
 }
+.portfolio{
+  max-width: 400px;
+  max-height: 400px;
+  margin:0 auto;
+}
 }
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 2em;
+	}
+	.pages{padding-top: 7em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
 	.gauchedeco{
 	  max-width: 378px;
+	}
+	.portfolio{
+	  max-width: 500px;
+	  max-height: 500px;
+	  margin:0 auto;
+
 	}
 	.flex{
 	  display: flex;
@@ -534,7 +644,7 @@ width:624px;
 	font-size: 6em;
 	}
 	p{
-	font-size: 1.2em;
+	font-size: 1.4em;
 	}
 	.gd-3col {
 	width: 100%;
