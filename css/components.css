@@ -1,0 +1,318 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+
+}
+#a-propos{
+  background-color: var(--dark-grey-color);
+}
+header{
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  max-width: 85%;
+  margin: 0 auto;
+
+}
+.studio{
+text-align: center;
+  align-self: center
+}
+#menu1{
+  float: right;
+    align-self: center
+}
+.bottom{
+  padding-bottom: 3.3em;
+}
+.centre{
+  text-align: center;
+
+}
+.bouton{
+  padding: 20px;
+  border: 1px solid black;
+  max-width: 182px;
+  text-align: center;
+  margin: 2em auto
+}
+.bouton:hover{
+  background-color: var(--orange-color);
+}
+#seeportfolio{
+  border-radius: 50%;
+  background-color: var(--orange-color);
+  border: 1px solid black;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  padding-right: 110px;
+  padding-left: 110px;
+}
+
+footer{
+  background-color: var(--dark-grey-color);
+  padding-top: 10em;
+padding-left: 7.5em;
+padding-right: 7.5em;
+}
+footer h1{
+  margin: 0;
+  padding: 0;
+  color: var(--orange-color);
+
+}
+footer h3{
+    color:white;
+    font-size: 1.5em;
+    letter-spacing: 6px;
+}
+.copyright{
+  margin-top: 2em;
+  opacity: 1;
+  color: white;
+  padding-bottom: 3em;
+}
+.reseaux{
+  display: flex;
+  margin-top: 2em;
+}
+
+.espace{
+  margin-top: 4.5em;
+
+}
+
+/*-------------Accueil*/
+.baseline{
+  width: 85%;
+  padding-bottom:2em;
+}
+.ligne{
+  height:200px;
+  width: 0px;
+  border: solid 0.5px black;
+  margin: 0 auto;
+  justify-content: center;
+  }
+  .ligne2{
+    height:200px;
+    width: 0px;
+    border: solid 0.5px white;
+margin-bottom: 3em;
+  }
+.bonjour{
+  justify-content: center;
+  padding-top: 200px;
+}
+.gauche{
+  margin-top: 27em;
+}
+.droite{
+  margin-top: 5em;
+}
+.projet{
+  padding-bottom: 8em;
+}
+#section1, #section2, #section3{
+  max-width: 85%;
+  margin: 0 auto;
+}
+#section1 {
+padding-top: 10em;
+padding-bottom: 10em;
+background-image: url("images/blobb.gif");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+#sectionpropos{
+
+}
+#section3{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 7em;
+}
+#section4{
+  background-color: var(--dark-grey-color);
+  max-width: 100%;
+  padding: 7.5%;
+
+}
+
+#section4 p, #section4 h5, #section4 h2{
+  color: white;
+}
+
+.spe{
+  margin-left: 6em;
+}
+.spe h5{
+  margin-bottom: 25px;
+}
+.specialite{
+  padding-bottom: 12em;
+  padding-top: 5em;
+}
+
+/*-------------menu*/
+.pages{padding-top: 7em;}
+.pages h1{
+color: white;
+text-align: right;
+padding-top: 0.3em;
+}
+.pages h1:hover{
+color: var(--orange-color);
+
+}
+.infosmenu{
+  display: block;
+}
+.contenumenu{
+  justify-content: space-between;
+
+}
+
+.overlay{
+  position: fixed;
+  margin: 0 auto;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index:1;
+  display:none;
+  background-color: var(--dark-grey-color);
+
+}
+.popup{
+  padding: 5em;
+margin: 0 auto;
+width : 100%;
+width: 85%;
+overflow:hidden;
+position: relative;
+}
+.popup h3{
+  color: white;
+}
+
+/*-------------portfolio*/
+.nomprojet{
+  text-align: center;
+}
+.projets{
+  padding-top: 6em;
+  padding-bottom: 6em;
+  align-items: center;
+  overflow: hidden;
+}
+.nomprojet h1{
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+}
+#projetsportfolio{
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+
+
+/*-------------Page projet*/
+
+.coequipiers{
+  padding-top: 4em;
+
+}
+.pourenvoirplus{
+
+  width: 100%;
+  margin: 0 auto;
+
+  padding-bottom: 5em;
+  padding-top: 5em;
+  background-color: var(--beige-color);
+}
+.pourenvoirplus-inte{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#espacebas{
+margin-top: 10em;
+}
+
+.pageprojet{
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 6em;
+}
+.client, .date{margin-top: 10px;}
+.entete h1{
+  margin-bottom: 0.5em;
+}
+
+
+/*-------------Suivant - Précédent*/
+.suivantprecedent{
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 7em;
+
+}
+.suivantprecedent-inte{
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  display: flex;
+  justify-content: space-between;
+}
+#suivant, #precedent{
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid black;
+  padding-top: 78px;
+  padding-bottom: 78px;
+  padding-right: 78px;
+  padding-left: 78px;
+}
+#suivant:hover, #precedent:hover{
+  background-color: var(--orange-color);
+}
+
+/*-------------decodeur*/
+.gauchedecodeur{
+float: right;
+}
+.droitedecodeur{
+  padding-top: 11em;
+}
+.deco{
+  padding-bottom: 2.5em;
+  float: right;
+}
+/*-------------regate*/
+.description h3{
+  display: block;
+  padding-top: 0.4em;
+  padding-bottom: 0.2em;
+  color: white;
+}
+
+
+/*-------------a propos*/
+
+.description{
+  max-width: 500px;
+  transform: translate(3em, -3em);
+}
+.description h5, .description p {color: white;}
+#white{
+  color: white;
+}

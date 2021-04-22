@@ -1,0 +1,11 @@
+a:hover{
+  cursor: pointer;
+  text-decoration:none;
+}
+a{text-decoration:none;
+color: black}
+section{
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+}

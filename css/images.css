@@ -1,0 +1,74 @@
+.logo{
+  max-width: 120px;
+  float: left;
+}
+.menu{
+  max-width: 50px;
+  float: right;
+
+}
+
+.projhoriz-accueil{
+  max-width: 664px;
+  padding-bottom: 2em;
+}
+.projvert-accueil{
+  max-width: 450px;
+  padding-bottom: 2em;
+}
+.rs{
+  width: 30px;
+  margin-right: 5px;
+}
+#close{
+  width: 23px;
+  float: right;
+}
+.portfolio{
+  max-width: 400px;
+  max-height: 400px;
+}
+.article{
+  width: 100%;
+}
+.gif{
+  max-width: 100%;
+}
+.gauchenaughty, .droitenaughty{
+  max-width: 100%;
+  padding-top: 0;
+}
+.mockupiphone-naughty{
+  max-width: 763px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+img .mockupiphone-naughty{
+  max-width: 763px;
+
+}
+
+.droitepassion{
+  max-width: 685px;
+}
+
+.pleinepage{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.gauchedeco{
+  max-width: 402px;
+}
+.horizdeco{
+  max-width: 690px;
+}
+.imgmeteo{
+  max-width: 930px;
+}
+.imgmeteo1{
+  max-width: 930px;
+}
+.apropos{
+max-width: 510px;
+}

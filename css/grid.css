@@ -1,0 +1,531 @@
+
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+	html {
+		font-size: 10px;
+	}
+	p{
+		font-size: 1.4em;
+	}
+	h1{
+font-size: 4em;
+	}
+	h2{
+
+}
+	h3{
+
+}
+	h4{
+
+}
+	h5{
+
+	}
+	.droitepassionp{
+		grid-column: 2/3;
+		padding-top: 2em;
+	}
+	.gd-3col {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 15px;
+			grid-template-columns: repeat(2, 1fr);
+	}
+	.gd-3colheader {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+			grid-template-columns: repeat(3, 1fr);
+	}
+	.pourenvoirplus-inte{
+	  width: 80%;
+	  margin: 0 auto;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+	.col2{
+	  grid-column: 2/3;
+	    width: 100%;
+	}
+	.col1{
+	  grid-column: 1/2;
+	    width: 100%;
+	}
+	#seeportfolio{
+	  border-radius: 50%;
+	  background-color: var(--orange-color);
+	  border: 1px solid black;
+	  padding-top: 71px;
+	  padding-bottom: 71px;
+	  padding-right: 55px;
+	  padding-left: 55px;
+	}
+	#suivant, #precedent{
+	  border-radius: 50%;
+	  background-color: transparent;
+	  border: 1px solid black;
+	  padding-top: 68px;
+	  padding-bottom: 68px;
+	  padding-right: 68px;
+	  padding-left: 68px;
+	}
+	.gd-2col {
+		width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 35px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.gd-4col {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+
+
+	}
+	.finpassion{
+	    max-width: 485px;
+			grid-column: 1;
+	}
+/*	.droitepassionp{
+		grid-column: 1;
+		padding-top: 2em;
+	}*/
+	.italic{
+		font-family: var(--p-font);
+		font-style: italic;
+		font-size: 1.1em;
+		line-height: 1.8em;
+		padding-top: 1em;
+		padding-bottom: 4em;;
+	}
+	.horizdeco{
+	  max-width: 490px;
+	}
+	.droitedecodeur{
+		padding-top: 3em;
+	}
+	.imgmeteo{
+	  max-width: 560px;
+	}
+	.imgmeteo1{
+	  max-width: 560px;
+	}
+	.droitepassion{
+	  max-width: 650px;
+		width: 100%;
+	}
+	.mockupiphone-naughty{
+	  max-width: 463px;
+	  margin: 0 auto;
+	  justify-content: center;
+	  padding-bottom: 3em;
+	}
+	#top{
+		padding-top: 3em;
+	}
+	.gd-3col {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.gauchenaughty{
+		grid-column: 1/2;
+		padding-top: 2em;
+	}
+	.droitenaughty{
+		grid-column: 2/3;
+		padding-top: 2em;
+	}
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) {
+	#top{
+		padding-top: 3em;
+	}
+	html {
+		font-size: 11px;
+	}
+	h1{
+	font-size: 5em;
+	}
+	p{
+		font-size: 1.4em;
+	}
+	.gd-2col {
+		width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 35px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.gd-3col {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.pourenvoirplus-inte{
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.gd-3colheader {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+			grid-template-columns: repeat(3, 1fr);
+	}
+	.gd-4col {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+
+
+	}
+	.col1{
+		grid-column: 1/2;
+		width: 100%;
+	}
+	.col2{
+		grid-column: 2/4;
+		width: 100%;
+	}
+	.droitepassion{
+	  max-width: 800px;
+		width: 100%;
+	}
+	.finpassion{
+	    max-width: 605px;
+
+	}
+	.droitepassionp{
+
+		padding-top: 2em;
+	}
+	.italic{
+	  font-family: var(--p-font);
+	  font-style: italic;
+	  font-size: 1.1em;
+	  line-height: 1.8em;
+	  padding-top: 1em;
+	  padding-bottom: 2em;;
+	}
+	.horizdeco{
+	  max-width: 490px;
+	}
+	.droitedecodeur{
+		padding-top: 3em;
+	}
+	.imgmeteo{
+	  max-width: 730px;
+	}
+	.imgmeteo1{
+	  max-width: 730px;
+	}
+	.mockupiphone-naughty{
+	  max-width: 663px;
+	  margin: 0 auto;
+	  justify-content: center;
+	  padding-bottom: 3em;
+	}
+	.gauchenaughty{
+		grid-column: 1/2;
+		padding-top: 2em;
+	}
+	.droitenaughty{
+		grid-column: 2/3;
+		padding-top: 2em;
+	}
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) {
+	#top{
+		padding-top: 0;
+	}
+	.droitedecodeur{
+	  padding-top: 8em;
+	}
+	html {
+	  font-size: 12px;
+}
+h1{
+font-size: 5.5em;
+}
+p{
+font-size: 1.3em;
+}
+.gd-2col {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: repeat(2, 1fr);
+}
+.gd-3col {
+width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: repeat(1, 1fr);
+}
+.pourenvoirplus-inte{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.col1{
+	grid-column: 1/2;
+	width: 100%;
+}
+.col2{
+	grid-column: 2/4;
+	width: 100%;
+}
+.gd-4col {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.gd-3colheader {
+width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 45px;
+		grid-template-columns: repeat(3, 1fr);
+}
+.gd-2col-naughty {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: 60% 40%;
+	padding-bottom: 3em;
+}
+.droitepassion{
+  max-width: 520px;
+	width: 100%;
+}
+.finpassion{
+    max-width: 605px;
+		grid-column: 1/3;
+}
+.droitepassionp{
+	grid-column: 3/4;
+	padding-top: 0;
+}
+.horizdeco{
+  max-width: 490px;
+	width: 100%;
+}
+.imgmeteo{
+  max-width: 830px;
+}
+.imgmeteo1{
+  max-width: 830px;
+}
+.mockupiphone-naughty{
+  max-width: 763px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.gauchenaughty{
+	grid-column: 1/2;
+	padding-top: 0;
+}
+.droitenaughty{
+	grid-column: 2/3;
+	padding-top: 0;
+}
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+	#top{
+		padding-top: 0;
+	}
+	.mockupiphone-naughty{
+	  max-width: 763px;
+	  margin: 0 auto;
+	  justify-content: center;
+	  padding-bottom: 3em;
+	}
+	.imgmeteo{
+	  max-width: 930px;
+	}
+	.imgmeteo1{
+	  max-width: 930px;
+	}
+	.droitedecodeur{
+	  padding-top: 11em;
+	}
+	.horizdeco{
+	  max-width: 690px;
+	}
+	.italic{
+	  font-family: var(--p-font);
+	  font-style: italic;
+	  font-size: 1.1em;
+	  line-height: 1.8em;
+	  padding-top: 1em;
+	  padding-bottom: 0;
+	}
+
+	.droitepassion{
+	  max-width: 688px;
+	}
+	.gd-3colheader {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+			grid-template-columns: repeat(3, 1fr);
+	}
+	h1{
+	font-size: 6em;
+	}
+	p{
+	font-size: 1.2em;
+	}
+	.gd-3col {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.gd-2col {
+	  width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.gd-4col {
+	  width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.gd-2col-naughty {
+	  width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: 60% 40%;
+		padding-bottom: 3em;
+	}
+	.gd-3colportfolio {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: 29% 42% 29%;
+	  align-items: center;
+	}
+
+	.gd-3colentete {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: 43% 33% 23%;
+	  align-items: bottom;
+	}
+
+	.gd-3colspe {
+	width: 100%;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: 3fr, 2fr, 3fr;
+	}
+
+
+	/*------------culturebox------*/
+	.col1{
+	  grid-column: 1/2;
+	  width: 100%;
+	}
+	.col2{
+	  grid-column: 2/4;
+	    width: 100%;
+	}
+	.gif{
+	  grid-column: 1/3;
+	}
+	#pdroite{
+	  grid-column: 3/4;
+	}
+
+	/*------------naughty------*/
+	.gauchenaughty{
+		grid-column: 1/2;
+		padding-top: 0;
+	}
+	.droitenaughty{
+		grid-column: 2/3;
+		padding-top: 0;
+	}
+	/*------------passionexces------*/
+	.gauchepassion{
+		grid-column: 1/3;}
+		.passion{
+	grid-column: 1/3;}
+	.passiondate{
+	grid-column: 3/4;}
+
+	.finpassion{
+		grid-column: 1/4;
+		max-width: 955px;
+	}
+	.droitepassionp{
+		grid-column: 4/5;
+		padding-top: 0;
+	}
+
+	/*------------passionexces------*/
+
+	.imgmeteo{
+		grid-column: 1/3;
+	}
+	.imgmeteo1{
+		grid-column: 2/4;
+	}
+	.droitemeteo{
+		grid-column: 2/3;
+	}
