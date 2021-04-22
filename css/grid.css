@@ -2,7 +2,21 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 381px) and (max-width: 767px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 20em;
+	}
+		.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
 
+	}
+	.pages{padding-top: 15em;}
+
+h1 .menu{
+	font-size: 3.5em;
+}
 	html {
 		font-size: 10px;
 	}
@@ -10,7 +24,7 @@
 		font-size: 1.5em;
 	}
 	h1{
-font-size: 4em;
+font-size: 5em;
 	}
 	h2{
 
@@ -203,6 +217,16 @@ width:100%;
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 10em;
+	}
+	.pages{padding-top: 10em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
 	.projhoriz-accueil{
 	  max-width: 764px;
 			width: 100%;
@@ -232,7 +256,7 @@ width:100%;
 		font-size: 11px;
 	}
 	h1{
-	font-size: 6em;
+	font-size: 7em;
 	}
 	p{
 		font-size: 1.6em;
@@ -369,6 +393,16 @@ width:100%;
 
 /*laptops, desktops*/
 @media (min-width: 1025px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 2em;
+	}
+	.pages{padding-top: 7em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
 	.gauchedeco{
 	  max-width: 300px;
 	}
@@ -522,6 +556,16 @@ width:624px;
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
+	.reseaux{
+	  display: flex;
+	  margin-top: 2em;
+	}
+	.pages{padding-top: 7em;}
+	.pages h1{
+	color: white;
+	text-align: right;
+	padding-top: 0.3em;
+	}
 	.gauchedeco{
 	  max-width: 378px;
 	}
