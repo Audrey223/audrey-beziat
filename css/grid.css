@@ -176,6 +176,19 @@ width:100%;
 	.gauchedeco{
 	  max-width: 500px;
 	}
+	.gd-3colportfolio {
+	width: 100%;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1,1fr);
+		margin: 0 auto;
+	}
+	.portfolio{
+	  max-width: 400px;
+	  max-height: 400px;
+	  margin:0 auto;
+	}
 }
 
 /*tablets, ipads (landscape)*/
@@ -319,6 +332,19 @@ width:100%;
 		width:100%;
 		height:360px;
 	}
+	.gd-3colportfolio {
+	width: 100%;
+		padding: 0;
+		display: grid;
+		grid-gap: 45px;
+		grid-template-columns: repeat(1,1fr);
+		margin: 0 auto;
+	}
+	.portfolio{
+	  max-width: 400px;
+	  max-height: 400px;
+	  margin:0 auto;
+	}
 }
 
 /*laptops, desktops*/
@@ -386,6 +412,15 @@ width: 100%;
 	display: grid;
 	grid-gap: 45px;
 		grid-template-columns: repeat(3, 1fr);
+}
+.gd-3colportfolio {
+width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 45px;
+	grid-template-columns: 29% 42% 29%;
+	align-items: center;
 }
 .gd-2col-naughty {
 	width: 100%;
@@ -458,12 +493,23 @@ width:624px;
 	width:100%;
 	height:540px;
 }
+.portfolio{
+  max-width: 400px;
+  max-height: 400px;
+  margin:0 auto;
+}
 }
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 	.gauchedeco{
 	  max-width: 378px;
+	}
+	.portfolio{
+	  max-width: 500px;
+	  max-height: 500px;
+	  margin:0 auto;
+
 	}
 	.flex{
 	  display: flex;
