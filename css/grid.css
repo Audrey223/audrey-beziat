@@ -1,7 +1,7 @@
 
 
 /*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 381px) and (max-width: 767px) {
 
 	html {
 		font-size: 10px;
