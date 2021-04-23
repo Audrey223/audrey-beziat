@@ -233,7 +233,7 @@ width:100%;
 	  padding-bottom: 2em;
 	}
 	.projvert-accueil{
-	  max-width: 750px;
+	  max-width: 550px;
 			width: 100%;
 	  padding-bottom: 2em;
 	}
@@ -552,10 +552,20 @@ width:624px;
   max-height: 400px;
   margin:0 auto;
 }
+.projvert-accueil{
+	max-width: 350px;
+		width: 100%;
+	padding-bottom: 2em;
+}
 }
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
+	.projvert-accueil{
+		max-width: 430px;
+			width: 100%;
+		padding-bottom: 2em;
+	}
 	.reseaux{
 	  display: flex;
 	  margin-top: 2em;
