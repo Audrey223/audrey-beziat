@@ -61,7 +61,10 @@ text-align: center;
   margin-top: 50px;
 }
 .bouton:hover{
-  border: 2px solid white;
+  border: 0px solid white;
+  font-style: italic;
+  background-color: white;
+  color: black;
 }
 #seeportfolio{
   border-radius: 50%;
@@ -77,7 +80,9 @@ text-align: center;
   font-style: italic;
   padding-right: 105px;
   padding-left: 105px;
-
+background-color: white;
+border: none;
+color: black;
 }
 
 footer{
@@ -157,10 +162,6 @@ margin-bottom: 3em;
 #section1 {
 padding-top: 4em;
 padding-bottom: 10em;
-background-image: url("images/blobb.gif");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
 }
 #sectionpropos{
 
