@@ -14,13 +14,24 @@
 
 <body id="a-propos">
 
-  <header>
-    <div class="gd-3colheader">
-      <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
-      <p class="studio" id="white">Studio de design graphique</p>
-      <div id="menu1"><img class="menu" src="images/menublanc.png" alt="logo"></div>
-    </div>
-  </header>
+  <section id="section1">
+    <header class="gd-3colheader">
+
+        <a href="index.html"><img class="logo" src="images/nlogo.png" alt="logo"></a>
+        <div class="header">
+          <p class="item"><a href="portfolio.html">Réalisations</a></p>
+          <p class="item"><a href="a-propos.html">À propos</a></p>
+          <div id="rect" class="item"></div>
+          <p class="item ogg" id="contact"><a href="mailto:beziataudrey@gmail.fr">Contact<a></p>
+          <div class="item">
+            <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
+          </div>
+
+        </div>
+
+    </header>
+  </section>
   <section id="sectionpropos">
     <div class="pageprojet">
       <div class="entete">
@@ -29,10 +40,12 @@
       </div>
       <img class="apropos" src="images/audrey-beziat.jpg" alt="">
       <div class="description">
-        <h5>Directrice <br>artistique</h5>
-        <h3>AUDREY BÉZIAT</h3>
-        <p>. Diplôme de directrice artistique - Master 2 avec une spécialité en design intéractif (motion design/webdesign) à l'ECV Bordeaux
-          <br>. Diplômée en 2016 d'un DUT Tech de Co Bordeaux (commerce).</p>
+        <h5>Directrice artistique</h5>
+        <h3>Audrey Béziat</h3>
+        <p> <i class="ogg">2021</i>. <br>Diplôme de directrice artistique à l'<i class="ogg italicc">ECV Bordeaux</i>.
+          <br>Mastère 2 option design intéractif (motion design / webdesign).
+          <br><br>
+        <p><i class="ogg">2016</i>. <br>DUT Tech de co à l'<i class="ogg italicc">IUT de Bordeaux</i>.</p>
       </div>
 
 
@@ -45,62 +58,25 @@
 
   </section>
 
+
+
   <footer>
+    <hr>
     <div class="gd-2col">
-      <h1>UNE QUESTION ? <br>PARLONS-EN !</h1>
+      <div>
+        <h1>UNE QUESTION ?</h1>
+        <h1 class="ogg italicc">Parlons-en !</h1>
+      </div>
+
       <div class="infos">
-        <h3>33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h3>
+        <h3 class="ogg">33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h3>
         <div class="reseaux">
           <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-          <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/instagram.png" alt="instagram"></a></div>
+          <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a></div>
       </div>
     </div>
     <p class="copyright">© 2021 Développé par Audrey Béziat.</p>
   </footer>
-
-
-
-  <div id="overlay" class="overlay">
-    <div id="popup" class="popup">
-
-      <div>
-        <img id="close" src="images/close.svg" alt="">
-        <img class="logo" src="images/logo.png" alt="logo">
-      </div>
-
-
-      <div class="pages">
-        <a href="index.html"><h1>Accueil</h1></a>
-        <a href="portfolio.html"><h1>Portfolio</h1></a>
-        <a href="a-propos.html"><h1>À propos</h1></a>
-      </div>
-      <div class="reseaux">
-        <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-        <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
-      </div>
-      <h3 id="menu">33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h3>
-
-    </div>
-  </div>
-
-  <script>
-    var overlay = document.getElementById('overlay');
-    var popup = document.getElementById('popup');
-
-    var close = document.getElementById('close');
-    close.addEventListener('click', ferme);
-
-    function ferme() {
-      overlay.style.display = 'none';
-    }
-
-    var menu = document.getElementById('menu1');
-    menu.addEventListener('click', open);
-
-    function open() {
-      overlay.style.display = 'block';
-    }
-  </script>
 </body>
 
 </html>
