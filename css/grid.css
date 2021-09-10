@@ -62,7 +62,7 @@ font-size: 5em;
 		padding: 0;
 		display: grid;
 		grid-gap: 45px;
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(1, 1fr);
 	}
 	.pourenvoirplus-inte{
 	  width: 80%;
@@ -109,7 +109,9 @@ font-size: 5em;
 		margin: 0 auto;
 		display: block;
 
-
+	}
+	.header{
+		display: block;
 	}
 	.finpassion{
 	    max-width: 485px;
@@ -217,9 +219,23 @@ width:100%;
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
+	.bouton{
+	  padding: 40px;
+	  border: 1px solid white;
+	  border-radius: 50%;
+	  max-width: 182px;
+	  text-align: center;
+	  margin: 2em auto;
+	  margin-top: 150px;
+	}
 	.reseaux{
 	  display: flex;
 	  margin-top: 10em;
+	}
+	.header{
+	  display: block;
+	float: right;
+	vertical-align: middle;
 	}
 	.pages{padding-top: 10em;}
 	.pages h1{
@@ -259,7 +275,7 @@ width:100%;
 	font-size: 7em;
 	}
 	p{
-		font-size: 1.6em;
+		font-size: 2em;
 	}
 	.gd-2col {
 		width: 100%;
@@ -277,7 +293,7 @@ width:100%;
 		padding: 0;
 		display: grid;
 		grid-gap: 45px;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 	}
 	.pourenvoirplus-inte{
 		width: 80%;
@@ -292,7 +308,7 @@ width:100%;
 		padding: 0;
 		display: grid;
 		grid-gap: 45px;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(1, 1fr);
 	}
 	.gd-4col {
 		width: 100%;
@@ -419,7 +435,7 @@ h1{
 font-size: 5.5em;
 }
 p{
-font-size: 1.5em;
+font-size: 2em;
 }
 .gd-2col {
 	width: 100%;

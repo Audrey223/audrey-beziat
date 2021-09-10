@@ -14,11 +14,7 @@ header{
 padding-bottom: 15em;
 
 }
-.header{
-  display: flex;
-float: right;
-vertical-align: middle;
-}
+
 
 .item{
 padding-right: 3em;
