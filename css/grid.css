@@ -219,14 +219,27 @@ width:100%;
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
+	.suivantprecedent{
+	  width: 80%;
+	  padding-top: 15em;
+	  margin: 0 auto;
+	  display: flex;
+	  justify-content: space-between;
+	}
+	.bonjour{
+		width: 90%;
+		margin: 0 auto;
+
+	}
 	.bouton{
 	  padding: 40px;
 	  border: 1px solid white;
 	  border-radius: 50%;
-	  max-width: 182px;
+	  max-width: 250px;
 	  text-align: center;
 	  margin: 2em auto;
-	  margin-top: 150px;
+	  margin-top: 80px;
+		margin-bottom: 100px;
 	}
 	.reseaux{
 	  display: flex;
@@ -272,10 +285,13 @@ width:100%;
 		font-size: 11px;
 	}
 	h1{
-	font-size: 7em;
+	font-size: 9em;
 	}
 	p{
-		font-size: 2em;
+		font-size: 3rem;
+	}
+	p a{
+		font-size: 3rem;
 	}
 	.gd-2col {
 		width: 100%;
@@ -404,6 +420,9 @@ width:100%;
 	  max-width: 400px;
 	  max-height: 400px;
 	  margin:0 auto;
+	}
+	h3{
+		font-size: 5em;
 	}
 }
 

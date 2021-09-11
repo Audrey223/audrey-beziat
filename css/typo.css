@@ -31,72 +31,6 @@ font-style: normal;
     font-style: normal;
 }
 
-@font-face {
-font-family: 'Barlow Regular';
-src:  url('fonts/barlow/Barlow-Regular.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Barlow ExtraLightItalic';
-src:  url('fonts/barlow/Barlow-ExtraLightItalic.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Barlow LightItalic';
-src:  url('fonts/barlow/Barlow-LightItalic.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Barlow ExtraLight';
-src:  url('fonts/barlow/Barlow-ExtraLight.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Barlow Light';
-src:  url('fonts/barlow/Barlow-Light.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Barlow Medium';
-src:  url('fonts/barlow/Barlow-Medium.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Barlow Italic';
-src:  url('fonts/barlow/Barlow-Italic.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Poppins Light';
-src:  url('fonts/poppins/Poppins-Light.ttf.eot');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'Poppins';
-src:  url('fonts/poppins/Poppins-Regular.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Poppins SemiBold';
-src:  url('fonts/poppins/Poppins-SemiBold.ttf.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
 
 html {
   font-size: 15px;
@@ -192,10 +126,11 @@ footer h3{
 }
  h4 {
    font-family: var(--h4-font);
-   line-height: 70px;
-   font-size: 1.7em;
+   line-height: 30px;
+   font-size: 1.2em;
    font-weight: normal;
    margin: 0;
+   color: white;
   }
   h5 {
     font-family: var(--h5-font);
