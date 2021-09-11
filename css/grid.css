@@ -441,6 +441,15 @@ width:100%;
 	.gauchedeco{
 	  max-width: 300px;
 	}
+	p a{
+			font-size: 1.5rem;
+	}
+	h3{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 2em;
+	}
 	#top{
 		padding-top: 0;
 	}
