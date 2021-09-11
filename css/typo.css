@@ -81,7 +81,7 @@ p, h1, h2, h3{
 p {
   font-family: var(--p-font);
   font-size: 1.1em;
-  line-height: 1.8em;
+  line-height: 2em;
   font-weight: normal;
   margin: 0;
 }
