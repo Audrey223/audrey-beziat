@@ -30,9 +30,7 @@ hr {
 
 a:hover {
   cursor: pointer;
-  text-decoration: none;
 }
-link{text-decoration: underline;}
 #link{
   text-decoration: underline;
 
@@ -41,18 +39,22 @@ link{text-decoration: underline;}
   cursor: pointer;
 }
 a {
+
   text-decoration: none;
-  color: var(--text-color-light);
+  color: var(--text-color-dark);
 }
 
 .entree-menu:hover a {
-  border: solid 0.5px var(--text-color-light);
+  border: solid 0.5px var(--text-color-dark);
   border-radius: 50%;
 }
+
+
 
 .flex {
   display: flex;
 }
+
 
 .bouton-secondaire{
   display: flex;
@@ -69,7 +71,7 @@ padding-left: 10px;
 padding-right: 10px;
 padding-top: 2px;
 padding-bottom: 2px;
-border: 1px solid var(--text-color-light);
+border: 1px solid var(--text-color-dark);
 margin-right: 10px;
 }
 
@@ -92,6 +94,13 @@ margin-right: 10px;
   justify-content: flex-end;
 }
 
+#header h5{
+  color: var(--text-color-dark);
+}
+#header hr{
+  border-color: var(--text-color-dark);}
+
+
 
 
 /*SECTION 1 __________________________________________________________________________________________*/
@@ -105,7 +114,7 @@ margin-right: 10px;
 /*BASELINE____________________________________________________________________________________*/
 
  #expertises hr{
-    border: dashed 0.5px var(--text-color-light);
+    border: dashed 0.5px var(--text-color-dark);
 }
 
 
@@ -340,7 +349,9 @@ justify-content: space-between;
   padding-top: 10em;
   padding-bottom: 4em;
 }
-
+.projet-contact{
+  padding-top: 5em;
+}
 .galerie-projet-video{
   display: block;
 }

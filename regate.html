@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Design graphique - La Régate</title>
+  <title>Studio de design graphique</title>
   <link rel="icon" type="images/fav.png" sizes="32x32" href="images/fav.png">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/typo.css">
@@ -16,11 +16,11 @@
   <div id="up"><img class="fleche" src="images/svg/fleche-dark.svg" alt="fleche"></div>
 
   <section class="panel" data-color="color1">
-    <div id="header">
+    <div id="headerdark">
       <div id="menu">
         <a href="index.html"><img class="logo" src="images/svg/logo.svg" alt="logo"></a>
         <div id="entrees">
-          <h5 class="entree-menu inactive"><a href="index.html">Expertises</a></h5>
+          <h5 class="entree-menu inactive"><a href="index.html">Expertise</a></h5>
           <h5 class="entree-menu"><a href="index.html#section2">Réalisations</a></h5>
           <h5 class="entree-menu"><a href="#contact">Contact</a></h5>
         </div>
@@ -29,7 +29,7 @@
       <hr>
     </div>
 
-    <div class="projet" id="regate">
+    <div class="projet" id="darkregate">
       <div class="info-projet">
         <div class="client-date">
           <h5 class="client">Projet fictif</h5>
@@ -40,9 +40,7 @@
           <h5 class="tag">Identité visuelle</h5>
           <h5 class="tag">Webdesign UI/UX</h5>
         </div>
-        <p>Ce projet a été réalisé en collaboration avec Emma Colongue & Mélanie Goussard.<br>La Régate est une entreprise de transport de marchandises reliant les villes de Bordeaux et de Fort-de-France (Martinique). Le concept de cette entreprise
-          est simple : des produits locaux et éco-responsables, transportés sur un voilier à l'empreinte carbone faible.​ </p>
-      </div>
+        <p><p>Ce projet a été réalisé en collaboration avec Emma Colongue & Mélanie Goussard.<br><br>La Régate est une entreprise de transport de marchandises reliant les villes de Bordeaux et de Fort-de-France (Martinique). Le concept de cette entreprise est simple : des produits locaux et éco-responsables, transportés sur un voilier à l'empreinte carbone faible.​ </p></div>
 
       <div class="galerie-projet">
 
@@ -56,7 +54,7 @@
     </div>
   </section>
 
-  <section id="section-4" class="panel sliderprojet" data-color="color1">
+  <section class="panel sliderprojet" data-color="color1">
     <div class="title marges">
       <hr>
       <br>
@@ -131,10 +129,10 @@
   </section>
 
 
-  <footer id="contact">
+  <footer id="contact" class="projet-contact">
     <hr><br>
-    <h1>Contact</h1>
-    <div id="infoscontact" class="">
+    <h2>Contact</h2>
+    <div id="infoscontact" class="flex">
       <h5 id="questioncontact">Un projet ? Une question ? Parlons-en !</h5>
       <div id="moyenscontact">
         <div class="mail">
@@ -185,7 +183,37 @@
       updateButtonState();
     });
   </script>
+  <script>
+    $(window).scroll(function() {
 
+      // selectors
+      var $window = $(window),
+        $body = $('body'),
+        $panel = $('.panel');
+
+      // Change 33% earlier than scroll position so colour is there when you arrive.
+      var scroll = $window.scrollTop() + ($window.height() / 3);
+
+      $panel.each(function() {
+        var $this = $(this);
+
+        // if position is within range of this panel.
+        // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+        // Remember we set the scroll to 33% earlier in scroll var.
+        if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+
+          // Remove all classes on body with color-
+          $body.removeClass(function(index, css) {
+            return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+          });
+
+          // Add class of currently active div
+          $body.addClass('color-' + $(this).data('color'));
+        }
+      });
+
+    }).scroll();
+  </script>
 
 </body>
 
