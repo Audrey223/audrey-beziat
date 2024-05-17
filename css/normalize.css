@@ -1,11 +1,352 @@
-a:hover{
-  cursor: pointer;
-  text-decoration:none;
-}
-a{text-decoration:none;
-color: white}
-section{
-  padding-top: 4em;
-  padding-bottom: 4em;
+body {
+  max-width: 100%;
+  margin: 0 auto;
+    background-color:var(--text-color-dark);
+    transition: background-color 0.35s ease;
+  }
 
+.color-color1 {
+  background-color: var(--text-color-dark);
+}
+.color-color2 {
+  background-color: var(--text-color-light);
+}
+.color-color3 {
+  background-color: #;}
+.color-color3 {
+  background-color: #;}
+.color-color4 {
+  background-color: #;}
+.color-color5 {
+  background-color: #;}
+.color-color6 {
+  background-color: #;
+}
+
+hr {
+  border: dashed 0.5px var(--text-color-light);
+  opacity: 0.8;
+}
+
+a:hover {
+  cursor: pointer;
+}
+#link{
+  text-decoration: underline;
+
+}
+#link:hover {
+  cursor: pointer;
+}
+a {
+
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+
+.entree-menu:hover a {
+  border: solid 0.5px var(--text-color-light);
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.bouton-secondaire{
+  display: flex;
+}
+
+.tags{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.tag {
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 2px;
+border: 1px solid var(--text-color-light);
+margin-right: 10px;
+}
+
+
+/*MENU____________________________________________________________________________________*/
+#header {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 2em;
+}
+#menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#entrees {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/*SECTION 1 __________________________________________________________________________________________*/
+
+.expertise{
+  margin-bottom: 6px;
+}
+
+
+
+/*BASELINE____________________________________________________________________________________*/
+
+ #expertises hr{
+    border: dashed 0.5px var(--text-color-light);
+}
+
+
+/*EXPERTISE____________________________________________________________________________________*/
+
+
+hr #expertises {
+  min-width: 150px;
+}
+
+.identitevisuelle {
+  min-width: 250px;
+}
+.medias {
+  min-width: 250px;
+}
+.print {
+  min-width: 160px;
+}
+
+/*REALISATIONS____________________________________________________________________________________*/
+
+.space{
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+#realisations{
+padding-top: 10em;
+}
+
+.sliderprojet .tag {
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 4px;
+padding-bottom: 2px;
+border: 1px solid var(--text-color-light);
+margin-right: 10px;
+}
+.sliderprojet .tags {
+  padding:0;
+padding-top: 10px;}
+/*Selection____________________________________________________________________________________*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+#nav {
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+#up{
+  cursor: pointer;
+  border: dashed 0.5px var(--text-color-dark);
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  bottom : 0vh;
+  right: 0vh;
+  padding: 20px;
+  index:999;
+  mix-blend-mode:multiply;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+.projet-slider {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
+  gap: 30px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.projet-slider::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+}
+.marges{
+  width: 92%;
+  margin: 0 auto;
+}
+.label-container button {
+  border: dashed 0.5px #ECE8DF;
+  opacity: 1;
+  border-radius: 10px;
+  color: #ECE8DF;
+  cursor: pointer;
+  padding: 20px;
+  width: fit-content;
+  margin-left: 10px;
+  background-color: rgb(117 190 218 / 0%)  ;
+  justify-content: flex-start;
+}
+
+.label-container button:disabled {
+  border: solid 0.5px #ECE8DF;
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.infos-slider h4{
+  margin-bottom: 10px;
+}
+.infos-slider{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.projet-card, .projet-card img {
+transition: all .5s ease ;
+}
+.projet-card:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.projet-card:hover img{
+
+}
+
+.decouvrir{
+opacity: 0%;
+margin-top: 20px;
+transition: all .4s ease-in-out ;
+}
+
+.projet-card:hover .decouvrir{
+opacity: 100%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 900px;
+  height: 580px;
+  display: block;
+  object-fit: cover;
+}
+
+  .projet-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+
+/*Archives____________________________________________________________________________________*/
+hr .archives{
+  margin-top: 5em;
+
+  }
+
+#archives{
+  width: 92%;
+  margin:0 auto;
+  margin-top: 1em;
+  }
+#archive .tag {
+border: 1px solid var(--text-color-light);
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 2px;
+}
+
+
+
+/*A PROPOS____________________________________________________________________________________*/
+#section-3 {
+  vertical-align: text-bottom;
+  width: 92%;
+  margin: 0 auto;
+}
+
+
+
+/*FOOTER____________________________________________________________________________________*/
+footer {
+  width: 92%;
+  margin: 0 auto;
+}
+
+
+.cafe, .telephone, .mail {
+  display: block;
+}
+
+#infoscontact {
+  justify-content: space-between;
+}
+
+
+
+/*PROJETS___________________*/
+
+.projet{
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.date{
+  margin-bottom: 20px;
+}
+.client-date{
+display: flex;
+justify-content: space-between;
+}
+.title{
+  padding-top: 10em;
+  padding-bottom: 4em;
+}
+
+.galerie-projet-video{
+  display: block;
+}
+
+
+/*SCROLL____________________________*/
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }

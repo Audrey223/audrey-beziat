@@ -1,853 +1,950 @@
-
-
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 381px) and (max-width: 767px) {
-	.reseaux{
-	  display: flex;
-	  margin-top: 20em;
-	}
-		.pages h1{
-	color: white;
-	text-align: right;
-	padding-top: 0.3em;
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+  }
 
-	}
-	.pages{padding-top: 15em;}
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
 
+  h1 {
+    font-size: 4.2em;
+    line-height: 1.2em;
+  }
 
-	html {
-		font-size: 10px;
-	}
-	p{
-		font-size: 2em;
-	}
-	p a{
-		font-size: 1.7em;
-	}
-	h1{
-font-size: 4em;
-	}
-	h2{
+  h2 {
+    font-size: 3em;
+  }
 
+  h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  h5 {
+    line-height: 1.5em;
+    font-weight: 300;
+  }
+
+  h6 {
+    line-height: 2em;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  /* FOOTER ________________________________*/
+  footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  footer h1 {
+    margin-bottom: 20px;
+  }
+
+  #questioncontact {
+    display: none;
+  }
+
+  #infoscontact {
+    display: block;
+  }
+
+  .cafe, .telephone, .mail {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  #moyenscontact {
+    display: block;
+    margin-top: 70px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu a {
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+  }
+
+  /*HOME ____________________________________________________________________________________*/
+  /*BASELINE __________________*/
+  #section-1 {
+    position: relative;
+    top: 60%;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  #baseline {
+    margin-top: 5%;
+    display: block;
+  }
+
+  #relatif {
+    display: none;
+  }
+
+  #designer {}
+
+  #experiences {
+    text-align: left;
+  }
+
+  .expertises {
+    display: flex;
+  }
+
+  .expertises .expertise {
+    margin-right: 30px;
+  }
+
+  /* EXPERTISES __________________*/
+  #expertises {
+    padding-top: 30px;
+    max-width: 100%;
+    display: block;
+  }
+
+  .identitevisuelle {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  .medias {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  .print {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  /*PROJETS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #archive {
+    align-items: baseline;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  #archive h4 {
+    margin-top: 0px;
+    font-size: 1.2em;
+  }
+
+  #tagbouton {
+    margin-top: 2px;
+    grid-column: 1/4;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  #tagbouton .bouton-secondaire h5 {
+    display: none;
+  }
+
+  #tagbouton .bouton-secondaire img {
+    transform: rotate(-90deg);
+  }
+
+  #clientarchive {}
+
+  #datearchive {}
+
+  #clientarchive {}
+
+  /* BIOGRAPHIE ________________________________*/
+  #section-3 {
+    padding-top: 10em;
+    padding-bottom: 30px;
+    display: block;
+  }
+
+  #phototxt {
+    grid-column: 1 / 5;
+    align-items: flex-end;
+  }
+
+  #biographie {
+    grid-column: 1 / 5;
+    text-align: left;
+    padding-top: 40px;
+  }
+
+  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
+  #section-4 {
+    padding-bottom: 20px;
+  }
+
+  /* PHOTOS ________________________________ */
+  .img-slider {
+    max-width: 400px;
+  }
+
+  .img-slider-vert {
+    max-width: 400px;
+  }
+
+  /* PAGE PROJET ________________________________ */
+  .projet {
+    display: block;
+  }
+
+  .galerie-projet {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 0;
+  }
+
+  .info-projet {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .video-par2 {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  #musee-horiz {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+  }
+
+  #musee-carre {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  #musee-vertical {
+    width: 100%;
+    min-height: 800px;
+  }
 }
-	h3{
 
-}
-	h4{
-
-}
-	h5{
-
-	}
-	.baseline{
-		width:80%;
-	}
-	h1.baseline{
-		font-size: 5em;
-	}
-	.droitepassionp{
-		grid-column: 2/3;
-		padding-top: 2em;
-	}
-	.gd-3col {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 15px;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.droitemusee{
-
-		min-width: 480px;
-		min-height: 270px;
-	}
-	.gd-3colheader {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-			grid-template-columns: repeat(1, 1fr);
-	}
-	.pourenvoirplus-inte{
-	  width: 80%;
-	  margin: 0 auto;
-	  display: flex;
-	  justify-content: space-between;
-	  align-items: center;
-	}
-	.col2{
-	  grid-column: 2/3;
-	    width: 100%;
-	}
-	.col1{
-	  grid-column: 1/2;
-	    width: 100%;
-	}
-	#seeportfolio{
-	  border-radius: 50%;
-	  background-color: var(--orange-color);
-	  border: 1px solid black;
-	  padding-top: 71px;
-	  padding-bottom: 71px;
-	  padding-right: 55px;
-	  padding-left: 55px;
-	}
-	#suivant, #precedent{
-	  border-radius: 50%;
-	  background-color: transparent;
-	  border: 1px solid black;
-	  padding-top: 68px;
-	  padding-bottom: 68px;
-	  padding-right: 68px;
-	  padding-left: 68px;
-	}
-	.gd-2col {
-		width: 100%;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 35px;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.gd-4col {
-		width: 100%;
-		margin: 0 auto;
-		display: block;
-
-	}
-	.header{
-		display: block;
-	}
-	.finpassion{
-	    max-width: 485px;
-			grid-column: 1;
-	}
-/*	.droitepassionp{
-		grid-column: 1;
-		padding-top: 2em;
-	}*/
-	.italic{
-		font-family: var(--p-font);
-		font-style: italic;
-		font-size: 1.1em;
-		line-height: 1.8em;
-		padding-top: 1em;
-		padding-bottom: 4em;;
-	}
-	.horizdeco{
-
-width:100%;
-	}
-	.droitedecodeur{
-		padding-top: 3em;
-
-
-	}
-	.imgmeteo{
-	  max-width: 560px;
-	}
-	.imgmeteo1{
-	  max-width: 560px;
-	}
-	.droitepassion{
-	  max-width: 650px;
-		width: 100%;
-	}
-	.mockupiphone-naughty{
-	  max-width: 463px;
-	  margin: 0 auto;
-	  justify-content: center;
-	  padding-bottom: 3em;
-	}
-	#top{
-		padding-top: 3em;
-	}
-
-	.gauchenaughty{
-		grid-column: 1/2;
-		padding-top: 2em;
-	}
-	.droitenaughty{
-		grid-column: 2/3;
-		padding-top: 2em;
-	}
-	.romanite2{
-	width:450px;
-	 height:450px;
-	 margin: 0 auto;
-	 	 margin-top: 4em;
-	}
-	.romaniteright{
-		width:253px;
-		 height:450px;
-		 margin: 0 auto;
-	}
-	.gauchemusee{
-		width:100%
-	}
-	.flex{
-		display: block;
-
-	}
-	.videoculturebox{
-		grid-column: 1/3;
-		width:100%;
-		height:360px;
-	}
-	.gauchedeco{
-	  max-width: 500px;
-	}
-	.gd-3colportfolio {
-	width: 100%;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(1,1fr);
-		margin: 0 auto;
-	}
-	.portfolio{
-	  max-width: 400px;
-	  max-height: 400px;
-	  margin:0 auto;
-	}
-	.projhoriz-accueil{
-	  max-width: 564px;
-				width: 100%;
-	  padding-bottom: 2em;
-	}
-	.projvert-accueil{
-	  max-width: 564px;
-		width: 100%;
-	  padding-bottom: 2em;
-	}
-}
-
-/*tablets, ipads (landscape)*/
 @media (min-width: 768px) {
-	.suivantprecedent{
-	  width: 80%;
-	  padding-top: 15em;
-	  margin: 0 auto;
-	  display: flex;
-	  justify-content: space-between;
-	}
-	.bonjour{
-		width: 90%;
-		margin: 0 auto;
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+  }
 
-	}
-	.bouton{
-	  padding: 40px;
-	  border: 1px solid white;
-	  border-radius: 50%;
-	  max-width: 250px;
-	  text-align: center;
-	  margin: 2em auto;
-	  margin-top: 80px;
-		margin-bottom: 100px;
-	}
-	.reseaux{
-	  display: flex;
-	  margin-top: 10em;
-	}
-	.header{
-	  display: block;
-	float: right;
-	vertical-align: middle;
-	}
-	.pages{padding-top: 10em;}
-	.pages h1{
-	color: white;
-	text-align: right;
-	padding-top: 0.3em;
-	}
-	.projhoriz-accueil{
-	  max-width: 764px;
-			width: 100%;
-	  padding-bottom: 2em;
-	}
-	.projvert-accueil{
-	  max-width: 550px;
-			width: 100%;
-	  padding-bottom: 2em;
-	}
-	.gauchedeco{
-	  max-width: 800px;
-	}
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
 
-	.gauchemusee{
-		width:100%
-	}
-	.droitemusee{
-		grid-column: 2/4;
-		min-width: 426px;
-		min-height: 240px;
-	}
-	#top{
-		padding-top: 3em;
-	}
-	html {
-		font-size: 11px;
-	}
-	h1{
-	font-size: 5.5em;
-	}
-	.baseline{
-		width:80%;
-	}
-	h1.baseline{
-		font-size: 8em;
-	}
-	p{
-		font-size: 2.9em;
-	}
-	p a{
-		font-size: 2em;
-	}
-	h3{
-		font-size: 4em;
-		line-height: 70px;
-	}
-	h5{
-		font-size: 2em;
-	}
-	.gd-2col {
-		width: 100%;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 35px;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.right{
-	  float: center;
-	}
-	.gd-3col {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.pourenvoirplus-inte{
-		width: 80%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.gd-3colheader {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-			grid-template-columns: repeat(1, 1fr);
-	}
-	.gd-4col {
-		width: 100%;
-		margin: 0 auto;
-		display: block;
+  h1 {
+    font-size: 5.5em;
+    line-height: 1.2em;
+  }
 
+  h2 {
+    font-size: 3.3em;
+  }
 
-	}
-	.col1{
-		grid-column: 1/2;
-		width: 100%;
-	}
-	.col2{
-		grid-column: 2/4;
-		width: 100%;
-	}
-	.droitepassion{
-	  max-width: 800px;
-		width: 100%;
-	}
-	.finpassion{
-	    max-width: 605px;
+  h3 {
+    font-size: 2em;
+    line-height: 1.4em;
+  }
 
-	}
-	.droitepassionp{
+  h4 {
+    font-size: 1.4em;
+    line-height: 30px;
+  }
 
-		padding-top: 2em;
-	}
-	.italic{
-	  font-family: var(--p-font);
-	  font-style: italic;
-	  font-size: 1.1em;
-	  line-height: 1.8em;
-	  padding-top: 1em;
-	  padding-bottom: 2em;;
-	}
-	.horizdeco{
-	  max-width: 890px;
-		width:100%;
-	}
-	.droitedecodeur{
-		padding-top: 3em;
-	}
-	.imgmeteo{
-	  max-width: 730px;
-	}
-	.imgmeteo1{
-	  max-width: 730px;
-	}
-	.mockupiphone-naughty{
-	  max-width: 663px;
-	  margin: 0 auto;
-	  justify-content: center;
-	  padding-bottom: 3em;
-	}
-	.gauchenaughty{
-		grid-column: 1/2;
-		padding-top: 2em;
-	}
-	.droitenaughty{
-		grid-column: 2/3;
-		padding-top: 2em;
-	}
-	.romanite2{
-	width:624px;
-	 height:624px;
-	 margin-left: 0;
-	 margin-top: 4em;
-	}
-	.romaniteright{
-		width:351px;
-		 height:624px;
+  h5 {
+    font-size: 0.9em;
+    line-height: 1.7em;
+    font-weight: 300;
+  }
 
-	}
-	.flex{
-	  display: block;
+  h6 {
+    line-height: 2em;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
 
-	}
-	.videoculturebox{
-		grid-column: 1/3;
-		width:100%;
-		height:360px;
-	}
-	.gd-3colportfolio {
-	width: 100%;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(1,1fr);
-		margin: 0 auto;
-	}
-	.portfolio{
-	  max-width: 400px;
-	  max-height: 400px;
-	  margin:0 auto;
-	}
+  footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
 
+  footer h1 {
+    margin-bottom: 80px;
+  }
+
+  #questioncontact {
+    display: none;
+  }
+
+  #moyenscontact {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cafe, .telephone, .mail {
+    margin-top: 10px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
+
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+
+  /*HOME ________________________________*/
+  /*BASELINE____________________________________________________________________________________*/
+  #section-1 {
+    position: relative;
+    top: 50%;
+    width: 92%;
+    margin: 5%;
+  }
+
+  #baseline h1 {
+    font-size: 4.8em;
+    line-height: 1.2em;
+  }
+
+  .inline {
+    display: inline-flex;
+  }
+
+  #relatif {
+    position: relative;
+    top: 20%;
+    left: 10%;
+  }
+
+  #designer {
+    grid-column: 1 / 6;
+  }
+
+  #experiences {
+    grid-column: 2 / 7;
+  }
+
+  #expertises {
+    display: flex;
+    padding-top: 80px;
+  }
+
+  .expertises {
+    display: block;
+  }
+
+  .expertises .expertise {
+    margin-right: 0px;
+  }
+
+  /*PROJETS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  #archive {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  #datearchive {
+    grid-column: 1;
+  }
+
+  #tagbouton {
+    align-items: baseline;
+    grid-column: 5/11;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #tagbouton .bouton-secondaire h5 {
+    display: none;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 4;
+  }
+
+  /* BIOGRAPHIE ________________________________*/
+  #section-3 {
+    padding-top: 10em;
+    padding-bottom: 3em;
+    display: flex;
+  }
+
+  #phototxt {
+    grid-column: 1 / 3;
+    align-items: flex-end;
+  }
+
+  #biographie {
+    grid-column: 4 / 7;
+  }
+
+  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
+  #section-4 {
+    padding-bottom: 40px;
+  }
+
+  /* PHOTOS ________________________________ */
+  .img-slider {
+    max-width: 550px;
+  }
+
+  .img-slider-vert {
+    max-width: 350px;
+  }
+
+  /* PAGE PROJET ________________________________________*/
+  .projet {
+    display: block;
+  }
+
+  .galerie-projet {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 0;
+  }
+
+  .info-projet {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .video-par2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #musee-horiz {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+  }
+
+  #musee-carre, #musee-vertical {
+    width: 49%;
+    min-height: 450px;
+  }
 }
 
-/*laptops, desktops*/
 @media (min-width: 1025px) {
-	.reseaux{
-	  display: flex;
-	  margin-top: 2em;
-	}
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+  }
 
-	.pages{padding-top: 7em;}
-	.pages h1{
-	color: white;
-	text-align: right;
-	padding-top: 0.3em;
-	}
-	.gauchedeco{
-	  max-width: 300px;
-	}
-	p a{
-			font-size: 1em;
-	}
-	h1{
-	font-size: 4em;
-	}
-	p{
-	font-size: 1.5em;
-	}
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
 
-	h3{
-		font-size: 2em;
-	}
-	h2{
-		font-size: 2em;
-	}
-	.baseline{
-		width:80%;
-	}
-	h1.baseline{
-		font-size: 5.5em;
-	}
-	#top{
-		padding-top: 0;
-	}
-	.droitedecodeur{
-	  padding-top: 8em;
-	}
-	html {
-	  font-size: 12px;
+  h1 {
+    font-size: 6em;
+    line-height: 0.9em;
+  }
+
+  h2 {
+    font-size: 4em;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 2.1em;
+    line-height: 1.5em;
+  }
+
+  h4 {
+    line-height: 30px;
+    font-size: 1.3em;
+  }
+
+  h5 {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+
+  h6 {
+    line-height: 2em;
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 3em;
+    padding-bottom: 30px;
+  }
+
+  footer h1 {
+    margin-bottom: 100px;
+  }
+
+  #questioncontact {
+    display: block;
+    max-width: 130px;
+    padding-bottom: 10px;
+  }
+
+  #moyenscontact {
+    display: flex;
+  }
+
+  #infoscontact {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .cafe, .telephone, .mail {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
+
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+
+  /*HOME ________________________________*/
+  /*BASELINE____________________________________________________________________________________*/
+  #section-1 {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  #baseline h1 {
+    font-size: 5.5em;
+    line-height: 1.2em;
+  }
+
+  .inline {
+    display: inline-flex;
+  }
+
+  #relatif {
+    position: relative;
+    top: 40%;
+    left: 70px;
+  }
+
+  #designer {
+    grid-column: 1 / 9;
+  }
+
+  #experiences {
+    grid-column: 3 / 11;
+  }
+
+  #expertises {
+    padding-top: 70px;
+    max-width: 60%;
+  }
+
+  /*PROJETS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .projet-slider {
+    margin-left: 0;
+  }
+
+  #archive {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  #datearchive {
+    grid-column: 1;
+  }
+
+  #tagbouton {
+    align-items: baseline;
+    grid-column: 5/11;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #tagbouton .bouton-secondaire h5 {
+    display: contents;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  /* BIOGRAPHIE ____________________________________________________________________________________*/
+  #section-3 {
+    padding-top: 10em;
+    padding-bottom: 3em;
+    display: flex;
+  }
+
+  #biographie {
+    grid-column: 6 / 11;
+    }
+
+  #phototxt {
+    grid-column: 1 / 4;
+    align-items: flex-end;
+  }
+
+  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
+  #section-4 {
+    padding-bottom: 70px;
+  }
+
+  /* PHOTOS ________________________________ */
+  .img-slider {
+    max-width: 700px;
+  }
+
+  .img-slider-vert {
+    max-width: 350px;
+  }
+
+  /* PAGE PROJET ________________________________________*/
+  .projet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .galerie-projet {
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+
+  .info-projet {
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+    align-items: top;
+    justify-content: flex-start;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    height: 20%;
+  }
+
+  .video-par2 {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  #musee-horiz {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+  }
+
+  #musee-carre {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  #musee-vertical {
+    width: 100%;
+    min-height: 800px;
+  }
 }
 
-.gd-2col {
-	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	grid-gap: 45px;
-	grid-template-columns: repeat(2, 1fr);
-}
-.gd-3col {
-width: 100%;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-gap: 45px;
-	grid-template-columns: repeat(3, 1fr);
-}
-.pourenvoirplus-inte{
-	width: 70%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.col1{
-	grid-column: 1/2;
-	width: 100%;
-}
-.col2{
-	grid-column: 2/4;
-	width: 100%;
-}
-.gd-4col {
-	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	grid-gap: 45px;
-	grid-template-columns: repeat(3, 1fr);
-}
-
-.gd-3colheader {
-width: 100%;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-gap: 45px;
-		grid-template-columns: repeat(3, 1fr);
-}
-.gd-3colportfolio {
-width: 100%;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-gap: 45px;
-	grid-template-columns: 29% 42% 29%;
-	align-items: center;
-}
-.gd-2col-naughty {
-	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	grid-gap: 45px;
-	grid-template-columns: 60% 40%;
-	padding-bottom: 3em;
-}
-.droitepassion{
-  max-width: 520px;
-	width: 100%;
-}
-.finpassion{
-    max-width: 605px;
-		grid-column: 1/3;
-}
-.droitepassionp{
-	grid-column: 3/4;
-	padding-top: 0;
-}
-.horizdeco{
-  max-width: 490px;
-	width: 100%;
-}
-.imgmeteo{
-  max-width: 830px;
-}
-.imgmeteo1{
-  max-width: 830px;
-}
-.mockupiphone-naughty{
-  max-width: 763px;
-  margin: 0 auto;
-  justify-content: center;
-  padding-bottom: 3em;
-}
-.gauchenaughty{
-	grid-column: 1/2;
-	padding-top: 0;
-}
-.droitenaughty{
-	grid-column: 2/3;
-	padding-top: 0;
-}
-.romanite2{
-width:624px;
- height:624px;
- margin-left: 2em;
- margin-top: 0;
-}
-.romaniteright{
-	width:351px;
-	 height:624px;
-}
-.droitemusee{
-	grid-column: 2/4;
-	min-width: 640px;
-	min-height: 360px;
-}
-.gauchemusee{
-	grid-column: 1/2;
-}
-.flex{
-  display: flex;
-  justify-content: space-between;
-}
-.videoculturebox{
-	grid-column: 1/3;
-	width:100%;
-	height:540px;
-}
-.portfolio{
-  max-width: 400px;
-  max-height: 400px;
-  margin:0 auto;
-}
-.projvert-accueil{
-	max-width: 350px;
-		width: 100%;
-	padding-bottom: 2em;
-}
-}
-
-/*desktops - higher resolution*/
 @media (min-width: 1281px) {
-	.projvert-accueil{
-		max-width: 430px;
-			width: 100%;
-		padding-bottom: 2em;
-	}
-	.reseaux{
-	  display: flex;
-	  margin-top: 2em;
-	}
-	.pages{padding-top: 7em;}
-	.pages h1{
-	color: white;
-	text-align: right;
-	padding-top: 0.3em;
-	}
-	.gauchedeco{
-	  max-width: 378px;
-	}
-	.portfolio{
-	  max-width: 450px;
-	  max-height: 500px;
-	  margin:0;
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+  }
 
-	}
-	.flex{
-	  display: flex;
-	  justify-content: space-between;
-	}
-	.droitemusee{
-		grid-column: 2/4;
-		min-width: 960px;
-		min-height: 540px;
-	}
-	#top{
-		padding-top: 0;
-	}
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
 
-	.romanite2{
-	width:624px;
-	 height:624px;
-	}
-	.romaniteright{
-	  width:351px;
-	   height:624px;
+  h1 {
+    font-size: 6em;
+    line-height: 1em;
+  }
 
-	}
-	.mockupiphone-naughty{
-	  max-width: 763px;
-	  margin: 0 auto;
-	  justify-content: center;
-	  padding-bottom: 3em;
-	}
-	.gauchemusee{
-		grid-column: 1/2;
-	}
+  h2 {
+    font-size: 4em;
+  }
 
-	.imgmeteo{
-	  max-width: 930px;
-	}
-	.imgmeteo1{
-	  max-width: 930px;
-	}
-	.droitedecodeur{
-	  padding-top: 11em;
-	}
-	.horizdeco{
-	  max-width: 690px;
-		width:100%;
-	}
-	.italic{
-	  font-family: var(--p-font);
-	  font-style: italic;
-	  font-size: 1.1em;
-	  line-height: 1.8em;
-	  padding-top: 1em;
-	  padding-bottom: 0;
-	}
+  h3 {
+    font-size: 2.6em;
+    line-height: 1.4em;
+  }
 
-	.droitepassion{
-	  max-width: 688px;
-	}
-	.gd-3colheader {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(2, 1fr);
-	}
-	h1{
-	font-size: 5em;
-	}
-	.baseline{
-		width: 70%;
-	}
-	h1.baseline{
-	font-size: 5.5em;
-	}
-	p{
-	font-size: 1.4em;
-	}
-	.gd-3col {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 65px;
-		grid-template-columns: repeat(3, 1fr);
-	}
+  h4 {
+    font-size: 1.3em;
+    line-height: 30px;
+  }
 
-	.gd-2col {
-	  width: 100%;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(2, 1fr);
-	}
-	.gd-4col {
-	  width: 100%;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: repeat(4, 1fr);
-	}
-	.gd-2col-naughty {
-	  width: 100%;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: 60% 40%;
-		padding-bottom: 3em;
-	}
-	.gd-3colportfolio {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: 29% 42% 29%;
-	  align-items: center;
-	}
+  .projet-card h4 {
+    font-size: 2em;
+    line-height: 30px;
+  }
 
-	.gd-3colentete {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: 43% 33% 23%;
-	  align-items: bottom;
-	}
+  h5 {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
 
-	.gd-3colspe {
-	width: 100%;
-		margin: 0;
-		padding: 0;
-		display: grid;
-		grid-gap: 45px;
-		grid-template-columns: 3fr, 2fr, 3fr;
-	}
+  h6 {
+    line-height: 2em;
+    font-size: 14px;
+  }
 
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
 
-	/*------------culturebox------*/
-	.col1{
-	  grid-column: 1/2;
-	  width: 100%;
-	}
-	.col2{
-	  grid-column: 2/4;
-	    width: 100%;
-	}
-	.gif{
-	  grid-column: 1/3;
-	}
-	.videoculturebox{
-	  grid-column: 1/3;
-		max-width:960px;
-		max-height:540px;
-	}
-	#pdroite{
-	  grid-column: 3/4;
-	}
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
 
-	/*------------naughty------*/
-	.gauchenaughty{
-		grid-column: 1/2;
-		padding-top: 0;
-	}
-	.droitenaughty{
-		grid-column: 2/3;
-		padding-top: 0;
-	}
-	/*------------passionexces------*/
-	.gauchepassion{
-		grid-column: 1/3;}
-		.passion{
-	grid-column: 1/3;}
-	.passiondate{
-	grid-column: 3/4;}
+  /* FOOTER ________________________________*/
+  footer {
+    margin-top: 8em;
+    margin-bottom: 10px;
+  }
 
-	.finpassion{
-		grid-column: 1/4;
-		max-width: 955px;
-	}
-	.droitepassionp{
-		grid-column: 4/5;
-		padding-top: 0;
-	}
+  footer h1 {
+    margin-bottom: 2em;
+  }
 
-	/*------------passionexces------*/
+  #questioncontact {
+    max-width: 130px;
+  }
 
-	.imgmeteo{
-		grid-column: 1/3;
-	}
-	.imgmeteo1{
-		grid-column: 2/4;
-	}
-	.droitemeteo{
-		grid-column: 2/3;
-	}
+  #moyenscontact {
+    display: flex;
+  }
+
+  #infoscontact {
+    display: flex;
+  }
+
+  .cafe, .telephone, .mail {
+    margin-left: 40px;
+  }
+
+  /*HOME ________________________________*/
+  /*BASELINE____________________________________________________________________________________*/
+  #baseline h1 {
+    font-size: 7em;
+    line-height: 1em;
+  }
+
+  #section-1 {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .inline {
+    display: inline-flex;
+  }
+
+  #relatif {
+    position: relative;
+    top: 40%;
+    left: 70px;
+  }
+
+  #designer {
+    grid-column: 1 / 9;
+  }
+
+  #experiences {
+    grid-column: 3 / 11;
+  }
+
+  #expertises {
+    padding-top: 3em;
+    max-width: 40%;
+    display: flex;
+  }
+
+  /*PROJETS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  #archive {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  #datearchive {
+    grid-column: 1;
+  }
+
+  #tagbouton {
+    align-items: baseline;
+    grid-column: 6/11;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #tagbouton .bouton-secondaire h5 {
+    display: contents;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  /*BIOGRAPHIE____________________________________________________________________________________*/
+  #section-3 {
+    padding-top: 10em;
+    padding-bottom: 150px;
+  }
+
+  #phototxt {
+    grid-column: 1 / 4;
+    align-items: flex-end;
+  }
+
+  #biographie {
+    grid-column: 6 / 11;
+  }
+
+  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
+  #section-4 {
+    padding-bottom: 85px;
+  }
+
+  /* PHOTOS ________________________________ */
+  .img-slider {
+    max-width: 800px;
+  }
+
+  .img-slider-vert {
+    max-width: 450px;
+  }
+
+  .projet-slider {}
+
+  /* PAGE PROJET ________________________________________*/
+  .projet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .galerie-projet {
+    width: 60%;
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+
+  .info-projet {
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+    align-items: top;
+    justify-content: flex-start;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    height: 20%;
+  }
+
+  .video-par2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    object-fit: contain;
+    justify-content: space-between;
+  }
+
+  #musee-horiz {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+  }
+
+  #musee-carre, #musee-vertical {
+    width: 49%;
+    min-height: 400px;
+  }
+}
