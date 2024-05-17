@@ -43,14 +43,7 @@ strong {
 
 /*couleurs des fonts*/
 p, h1, h2, h3, h4, h5, h6 {
-  color: var(--text-color-dark);
-}
-#darkregate p, h1, h2, h3, h4, h5, h6 {
   color: var(--text-color-light);
-}
-
-#biographie{
-  color: var(--text-color-dark);
 }
 
 p {
@@ -112,31 +105,3 @@ h6 {
 .italic {
   font-style: italic;
 }
-
-/*COULEURS HOME_________________________________________________________________________________________*/
-#baseline h1, #baseline h5,#expertises h4,#expertises h5 {
-  color: var(--text-color-dark);
-}
-
-footer h1, footer h2, footer h3, footer h5, footer h6 {
-  color: var(--text-color-dark);
-}
-
-footer hr {
-  border-color: var(--text-color-dark);
-}
-
-#section-1 h5, #section-1 h2,#section-3 h5, #section-3 h2  {
-  color: var(--text-color-dark);
-}
-
-/*COULEURS PROJETS_________________________________________________________________________________________*/
-.projet h1, .projet h2, .projet h3, .projet h4, .projet h5,.projet p{
-  color: var(--text-color-dark);
-}
- .projet-contact h1, .projet-contact h2, .projet-contact h3,.projet-contact h4, .projet-contact h5{
-   color: var(--text-color-light);
-}
- .projet-contact hr{
-   border: dashed 0.5px  var(--text-color-light);
- }
