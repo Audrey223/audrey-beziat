@@ -713,12 +713,12 @@ width:624px;
 	  max-width: 688px;
 	}
 	.gd-3colheader {
-	width: 100%;
+		width: 100%;
 		margin: 0;
 		padding: 0;
 		display: grid;
 		grid-gap: 45px;
-			grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	h1{
 	font-size: 5em;

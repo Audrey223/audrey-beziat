@@ -3,111 +3,204 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Naughty Games</title>
+  <title>Design graphique - Naughty games</title>
   <link rel="icon" type="images/fav.png" sizes="32x32" href="images/fav.png">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/typo.css">
   <link rel="stylesheet" href="css/images.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
 
-  <section id="section1">
-    <header class="gd-3colheader">
+  <div id="up"><img class="fleche" src="images/svg/fleche-dark.svg" alt="fleche"></div>
 
-        <a href="index.html"><img class="logo" src="images/nlogo.png" alt="logo"></a>
-        <div class="header">
-          <p class="item"><a href="portfolio.html">Réalisations</a></p>
-          <p class="item"><a href="a-propos.html">À propos</a></p>
-          <div id="rect" class="item"></div>
-          <p class="item ogg" id="contact"><a href="mailto:beziataudrey@gmail.fr">Contact<a></p>
-          <div class="item">
-            <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-            <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
+  <section class="panel" data-color="color2">
+    <div id="header">
+      <div id="menu">
+        <a href="index.html"><img class="logo" src="images/svg/logo.svg" alt="logo"></a>
+        <div id="entrees">
+          <h5 class="entree-menu inactive"><a href="index.html">Expertise</a></h5>
+          <h5 class="entree-menu"><a href="index.html#section2">Réalisations</a></h5>
+          <h5 class="entree-menu"><a href="#contact">Contact</a></h5>
+        </div>
+
+      </div>
+      <hr>
+    </div>
+
+    <div class="projet" id="vivre-autrement">
+      <div class="info-projet">
+        <div class="client-date">
+          <h5 class="client">Projet fictif</h5>
+          <h5 class="date">2021</h5>
+        </div>
+        <h1>Naughty games</h1>
+        <div class="tags">
+          <h5 class="tag">Identité visuelle</h5>
+          <h5 class="tag">Webdesign UI/UX</h5>
+        </div>
+        <p>Ce projet a été réalisé en collaboration avec Emma Colongue & Mélanie Goussard.<br><br>
+        L'objectif du site est d'apprendre les jeux de main aux utilisateurs & et de les encourager à éteindre leur device pour y jouer avec leur entourage.<br>
+          Pour ce faire, la plateforme se présente sous la forme d'un site tunnel dans lequel, passé un certain stade, l'utilisateur ne peut plus revenir en arrière et se trouve face à une page ne lui proposant aucune interaction, ne lui laissant aucun autre choix que de quitter le site. Également, l'utilisateur ne peut jouer et s'entraîner que 3 fois maximum à chaque jeu, ce qui crée une véritable frustration et le pousse à y rejouer mais hors écran.</p>
+        </div>
+
+      <div class="galerie-projet">
+        <img class="img-projet" src="images/naughty-games/naughty-games.jpg" alt="La Régate">
+        <img class="img-projet" src="images/naughty-games/plan-site.jpg" alt="La Régate">
+        <div class="img-par2">
+          <img class="img-projet-mobile" src="images/naughty-games/morra.jpg" alt="La Régate">
+          <img class="img-projet-mobile" src="images/naughty-games/morra2.jpg" alt="La Régate">
+        </div>
+        <div class="img-par2">
+          <img class="img-projet-mobile" src="images/naughty-games/rpsls.jpg" alt="La Régate">
+          <img class="img-projet-mobile" src="images/naughty-games/rpsls2.jpg" alt="La Régate">
+        </div>
+        <img class="img-projet" src="images/naughty-games/odd.jpg" alt="La Régate">
+
+        <div class="img-mobile">
+          <img class="img-projet-mobile" src="images/naughty-games/mobile-2.jpg" alt="La Régate">
+          <img class="img-projet-mobile" src="images/naughty-games/mobile-3.jpg" alt="La Régate">
+          <img class="img-projet-mobile" src="images/naughty-games/mobile-4.jpg" alt="La Régate">
+        </div>
+
+
+        </div>
+
+    </div>
+  </section>
+
+
+  <section id="section-4" class="panel sliderprojet" data-color="color1">
+    <div class="title marges">
+      <hr>
+      <br>
+      <div id="nav" class='flex'>
+        <h2>Vous aimerez aussi</h2>
+        <div class="label-container">
+          <button class="projet-arrow-left"><img class="fleche left" src="images/svg/fleche.svg" alt="fleche"></button>
+          <button class="projet-arrow-right"><img class="fleche right" src="images/svg/fleche.svg" alt="fleche"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projet-slider">
+
+      <a href="musee-romanite.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/grapheine.jpg" alt="Musée de la Romanité">
           </div>
-
+          <div class="infos-slider">
+            <h4>Musée de la romanité</h4>
+            <div class="tags">
+              <h5 class="tag">Motion design</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
         </div>
-
-    </header>
-  </section>
-
-
-
-  <section>
-    <div class="pageprojet">
-      <div class="gd-3colentete">
-        <div class="entete">
-          <h1>NAUGHTY GAMES</h1>
+      </a>
+      <a href="candyshop.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="image-container img-slider-vert" src="images/vignettes/candyshop-vert.jpg" alt="La Régate">
+          </div>
+          <div class="infos-slider">
+            <h4>Candyshop</h4>
+            <div class="tags">
+              <h5 class="tag">Identité visuelle</h5>
+              <h5 class="tag">Webdesign UI/UX</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
         </div>
-        <div class="client"></div>
-        <div class="date">
-          <h3>2021</h3>
+      </a>
+
+      <a href="passion-exces.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/passion-exces.jpg" alt="eurocean's youth">
+          </div>
+          <div class="infos-slider">
+            <h4>Passion de l'excès ou excès de passion</h4>
+            <div class="tags">
+              <h5 class="tag">Identité visuelle</h5>
+              <h5 class="tag">Édition</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
         </div>
-      </div>
-<section>
-  <div class="gd-2col">
-    <p class="bottom">L'objectif du site est d'apprendre aux utilisateurs à jouer à des jeux anciens ou modernes qui ne s'appuient ni sur des jouets ni sur des smartphones ou supports informatiques, et de les encourager à éteindre leur PC et
-      aller jouer avec leurs amis/famille.</p>
-  </div>
-
-      <div class="gd-2col-naughty">
-          <img class="gauchenaughty" src="images/naughtygames/macbook.jpg" alt="">
-          <img class="droitenaughty" src="images/naughtygames/naughty-games.gif" alt="">
-      </div>
-
-      <div class="gd-2col-naughty">
-          <img class="gauchenaughty" src="images/naughtygames/arborescence.jpg" alt="">
-          <p id="top">Le but de ce site est d'abord d'encourager l'utilisateur à éteindre son écran pour aller jouer en extérieur. Pour ce faire, notre plateforme se présente sous la forme d'un site tunnel dans lequel, passé un certain stade, l'utilisateur ne peut plus revenir en arrière et se trouve face à une page ne lui proposant aucune interaction, ne lui laissant aucun autre choix que de quitter le site.Également, l'utilisateur ne peut jouer et s'entraîner que 3 fois maximum à chaque jeu, ce qui crée une véritable frustration chez lui et le pousse à y rejouer... hors écran cette fois. La corrélation des faits que l'utilisateur n'ait pu jouer que 3 fois en ligne et qu'il puisse se retrouver dans une impasse si le jeu lui plaît, le pousseront à jouer en dehors des écrans.</p>
-      </div>
-      <div class="gd-4col">
-        <img class="finpassion" src="images/naughtygames/parcours-ng.gif" alt="">
-      </div>
-
-<div class="centre">
-  <p class="espace">Nous avons pu développer une adaptation mobile de notre plateforme de jeu.</p>
-  <img class="mockupiphone-naughty" src="images/naughtygames/ng-iphone.png" alt="">
-  <h4 class="centre"><a href="https://www.figma.com/proto/kNb5IuFXFzUE3E9ILbNT3i/NAUGHTY-GAMES-%2F-MAQUETTE-GRAPHIQUE?page-id=501%3A2293&node-id=501%3A2996&viewport=-1730%2C-6101%2C0.762499988079071&scaling=min-zoom">PROTOTYPE DISPONIBLE  <i class="ogg"> - ici</i></a></h4></a></h4>
-</div>
-
-
-
-<p class="coequipiers ">Ce projet a été réalisé en équipe avec 2 autres graphistes.</p>
-<p class="ogg italicc">Emma Colongue - Mélanie Goussard</p>
-</section>
-
-
+      </a>
 
     </div>
   </section>
-  <div class="suivantprecedent">
-    <div class="suivprec"><a href="musee-romanite.html">
-        <p id="precedent">Préc.</p>
-      </a></div>
-    <div class="suivprec retour"><a href="portfolio.html">
-        <p class="ogg">Retour aux réalisations</p>
-      </a></div>
-    <div class="suivprec"><a href="passion-exces.html">
-        <p id="suivant">Suiv.</p>
-      </a></div>
-  </div>
 
 
-  <footer><hr>
-    <div class="gd-2col">
-  <div><h1>UNE QUESTION ?</h1><h1 class="ogg italicc">Parlons-en !</h1></div>
-
-      <div class="infos">
-        <h4>33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h4>
-        <div class="reseaux">
-        <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-        <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
-      </div>
+  <footer id="contact">
+    <hr><br>
+    <h1>Contact</h1>
+    <div id="infoscontact" class="">
+      <h5 id="questioncontact">Un projet ? Une question ? Parlons-en !</h5>
+      <div id="moyenscontact">
+        <div class="mail">
+          <h5 class="">Par mail</h5>
+          <h3 class="">beziataudrey@gmail.com</h3>
+        </div>
+        <div class="telephone">
+          <h5 class="">Par téléphone</h5>
+          <h3 class="">06 83 28 43 81</h3>
+        </div>
+        <div class="cafe">
+          <h5 class="">Autour d'un café</h5>
+          <h3 class="">Annecy, France</h3>
+        </div>
       </div>
     </div>
-    <p class="copyright">© 2021 Développé par Audrey Béziat.</p>
   </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const projetContainer = document.querySelector(".projet-slider");
+      const leftRButton = document.querySelector(".projet-arrow-left");
+      const rightRButton = document.querySelector(".projet-arrow-right");
+
+      function updateButtonState() {
+        leftRButton.disabled = projetContainer.scrollLeft <= 0;
+        rightRButton.disabled =
+          projetContainer.scrollLeft + projetContainer.offsetWidth >=
+          projetContainer.scrollWidth;
+      }
+
+      leftRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: -projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      rightRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      projetContainer.addEventListener("scroll", updateButtonState);
+      updateButtonState();
+    });
+  </script>
+
+
 </body>
 
 </html>
