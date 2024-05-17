@@ -43,7 +43,7 @@ strong {
 
 /*couleurs des fonts*/
 p, h1, h2, h3, h4, h5, h6 {
-  color: var(--text-color-light);
+  color: var(--text-color-dark);
 }
 #darkregate p, h1, h2, h3, h4, h5, h6 {
   color: var(--text-color-light);
