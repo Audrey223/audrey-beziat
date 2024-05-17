@@ -1,12 +1,5 @@
 /*low resolution tablets, mobiles (landscape)*/
-@media only screen
-
-and (min-device-width: 375px)
-
-and (max-device-width: 855px)
-
-and (-webkit-min-device-pixel-ratio: 2)
- {
+@media (min-width: 381px) and (max-width: 767px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -252,10 +245,10 @@ and (-webkit-min-device-pixel-ratio: 2)
   }
 }
 
-@media only screen (min-width: 856px) {
+@media (min-width: 768px) {
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px;
   }
 
@@ -265,27 +258,27 @@ and (-webkit-min-device-pixel-ratio: 2)
   }
 
   h1 {
-    font-size: 5.5em;
+    font-size: 4.2em;
     line-height: 1.2em;
   }
 
   h2 {
     font-size: 3.3em;
+    line-height: 1.5em;
   }
 
   h3 {
     font-size: 2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
   }
 
   h4 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 30px;
   }
 
   h5 {
-    font-size: 0.9em;
-    line-height: 1.7em;
+    line-height: 1.8em;
     font-weight: 300;
   }
 
@@ -295,114 +288,121 @@ and (-webkit-min-device-pixel-ratio: 2)
     font-size: 14px;
   }
 
+  /* FOOTER ________________________________*/
   footer {
-    margin-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 30px;
   }
 
   footer h1 {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 
   #questioncontact {
     display: none;
   }
 
-  #moyenscontact {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .cafe, .telephone, .mail {
-    margin-top: 10px;
-  }
-
-  /* MENU ________________________________*/
-  .entree-menu {
-    margin-left: 50px;
-  }
-
-  .entree-menu a {
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-  }
-
-  /*HOME ________________________________*/
-  /*BASELINE____________________________________________________________________________________*/
-  #section-1 {
-    position: relative;
-    top: 50%;
-    width: 92%;
-    margin: 5%;
-  }
-
-  #baseline h1 {
-    font-size: 4.8em;
-    line-height: 1.2em;
-  }
-
-  .inline {
-    display: inline-flex;
-  }
-
-  #relatif {
-    position: relative;
-    top: 20%;
-    left: 10%;
-  }
-
-  #designer {
-    grid-column: 1 / 6;
-  }
-
-  #experiences {
-    grid-column: 2 / 7;
-  }
-
-  #expertises {
-    display: flex;
-    padding-top: 80px;
-  }
-
-  .expertises {
+  #infoscontact {
     display: block;
   }
 
+  .cafe, .telephone, .mail {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  #moyenscontact {
+    display: block;
+    margin-top: 70px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu a {
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+  }
+
+  /*HOME ____________________________________________________________________________________*/
+  /*BASELINE __________________*/
+  #section-1 {
+    position: relative;
+    top: 60%;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  #baseline {
+    margin-top: 5%;
+    display: block;
+  }
+
+  #relatif {
+    display: none;
+  }
+
+  #designer {}
+
+  #experiences {
+    text-align: left;
+  }
+
+  .expertises {
+    display: flex;
+  }
+
   .expertises .expertise {
-    margin-right: 0px;
+    margin-right: 30px;
+  }
+
+  /* EXPERTISES __________________*/
+  #expertises {
+    padding-top: 30px;
+    max-width: 100%;
+    display: block;
+  }
+
+  .identitevisuelle {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  .medias {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  .print {
+    min-width: 100%;
+    margin-top: 20px;
   }
 
   /*PROJETS ________________________________*/
   #section-2 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
   }
 
   #archive {
     align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
   }
 
-  #clientarchive {
-    grid-column: 2 / 5;
-  }
-
-  #datearchive {
-    grid-column: 1;
+  #archive h4 {
+    margin-top: 0px;
+    font-size: 1.2em;
   }
 
   #tagbouton {
-    align-items: baseline;
-    grid-column: 5/11;
+    margin-top: 2px;
+    grid-column: 1/4;
     display: flex;
+    align-items: baseline;
     justify-content: space-between;
   }
 
@@ -410,41 +410,49 @@ and (-webkit-min-device-pixel-ratio: 2)
     display: none;
   }
 
-  #clientarchive {
-    grid-column: 2 / 4;
+  #tagbouton .bouton-secondaire img {
+    transform: rotate(-90deg);
   }
+
+  #clientarchive {}
+
+  #datearchive {}
+
+  #clientarchive {}
 
   /* BIOGRAPHIE ________________________________*/
   #section-3 {
     padding-top: 10em;
-    padding-bottom: 3em;
-    display: flex;
+    padding-bottom: 30px;
+    display: block;
   }
 
   #phototxt {
-    grid-column: 1 / 3;
+    grid-column: 1 / 5;
     align-items: flex-end;
   }
 
   #biographie {
-    grid-column: 4 / 7;
+    grid-column: 1 / 5;
+    text-align: left;
+    padding-top: 40px;
   }
 
   /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
   #section-4 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   /* PHOTOS ________________________________ */
   .img-slider {
-    max-width: 550px;
+    max-width: 400px;
   }
 
   .img-slider-vert {
-    max-width: 350px;
+    max-width: 400px;
   }
 
-  /* PAGE PROJET ________________________________________*/
+  /* PAGE PROJET ________________________________ */
   .projet {
     display: block;
   }
@@ -463,9 +471,8 @@ and (-webkit-min-device-pixel-ratio: 2)
 
   .video-par2 {
     margin-top: 20px;
-    display: flex;
+    display: block;
     width: 100%;
-    justify-content: space-between;
   }
 
   #musee-horiz {
@@ -474,13 +481,18 @@ and (-webkit-min-device-pixel-ratio: 2)
     margin-top: 20px;
   }
 
-  #musee-carre, #musee-vertical {
-    width: 49%;
-    min-height: 450px;
+  #musee-carre {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  #musee-vertical {
+    width: 100%;
+    min-height: 800px;
   }
 }
 
-@media only screen (min-width: 1025px) {
+@media (min-width: 1025px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -720,7 +732,7 @@ and (-webkit-min-device-pixel-ratio: 2)
   }
 }
 
-@media only screen (min-width: 1281px) {
+@media (min-width: 1281px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
