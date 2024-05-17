@@ -1,4 +1,5 @@
 /*low resolution tablets, mobiles (landscape)*/
+
 @media (min-width: 381px) and (max-width: 767px) {
   .wrapper {
     display: grid;
@@ -12,8 +13,8 @@
   }
 
   h1 {
-    font-size: 6.5em;
-    line-height: 1.3em;
+    font-size: 4.7em;
+    line-height: 1.2em;
   }
 
   h2 {
@@ -31,7 +32,6 @@
   }
 
   h5 {
-    font-size: 1.5em;
     line-height: 1.5em;
     font-weight: 300;
   }
@@ -48,7 +48,7 @@
     padding-bottom: 30px;
   }
 
-  footer h1 {
+  footer h2 {
     margin-bottom: 20px;
   }
 
@@ -89,7 +89,7 @@
   }
 
   #baseline {
-    margin-top: 5%;
+    margin-top: 37%;
     display: block;
   }
 
@@ -102,18 +102,16 @@
   #experiences {
     text-align: left;
   }
-
-  .expertises {
-    display: flex;
-  }
-
-  .expertises .expertise {
-    margin-right: 30px;
-  }
+	.expertises{
+	display: flex;
+	}
+	.expertises .expertise{
+	margin-right: 30px;
+	}
 
   /* EXPERTISES __________________*/
   #expertises {
-    padding-top: 30px;
+    padding-top: 3em;
     max-width: 100%;
     display: block;
   }
@@ -134,14 +132,8 @@
   }
 
   /*PROJETS ________________________________*/
-  #section-2 {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
   #archive {
-    align-items: baseline;
+    align-items:baseline;
     display: block;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -149,7 +141,7 @@
 
   #archive h4 {
     margin-top: 0px;
-    font-size: 1.2em;
+		font-size: 1.2em;
   }
 
   #tagbouton {
@@ -175,81 +167,74 @@
   #clientarchive {}
 
   /* BIOGRAPHIE ________________________________*/
-  #section-3 {
-    padding-top: 10em;
-    padding-bottom: 30px;
-    display: block;
-  }
 
-  #phototxt {
-    grid-column: 1 / 5;
-    align-items: flex-end;
-  }
 
-  #biographie {
-    grid-column: 1 / 5;
-    text-align: left;
-    padding-top: 40px;
-  }
+	#section-3 {
+	    padding-top: 10em;
+	    padding-bottom: 30px;
+	    display: block;
+	  }
+		#phototxt {
+			grid-column: 1 / 5;
+			align-items: flex-end;
+		}
+	  #biographie {
+			grid-column: 1 / 5;
+	    font-size: 2.4em;
+	    line-height: 1.4em;
+			text-align: left;
+			padding-top: 40px;
+	  }
 
-  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
-  #section-4 {
-    padding-bottom: 20px;
-  }
-
-  /* PHOTOS ________________________________ */
-  .img-slider {
-    max-width: 400px;
-  }
-
-  .img-slider-vert {
-    max-width: 400px;
-  }
-
-  /* PAGE PROJET ________________________________ */
-  .projet {
-    display: block;
-  }
-
-  .galerie-projet {
-    width: 100%;
+	/* PHOTOS ________________________________ */
+	.img-slider {
+		max-width: 400px;
+	}
+	.img-slider-vert {
+		max-width: 400px;
+	}
+	/* PAGE PROJET ________________________________ */
+	.projet{
+		display: block;
+	}
+	.galerie-projet {
+	  width:100%;
     margin-top: 40px;
-    padding-left: 0;
-  }
+	  padding-left: 0;
+	}
 
-  .info-projet {
+	.info-projet{
     display: block;
     width: 100%;
     margin-top: 20px;
-  }
+	}
 
-  .video-par2 {
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-  }
+    .video-par2{
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+    }
 
-  #musee-horiz {
-    width: 100%;
-    min-height: 500px;
-    margin-top: 20px;
-  }
+    #musee-horiz{
+      width: 100%;
+      min-height: 500px;
+      margin-top: 20px;
+    }
 
-  #musee-carre {
-    width: 100%;
-    min-height: 500px;
-  }
-
-  #musee-vertical {
-    width: 100%;
-    min-height: 800px;
-  }
+    #musee-carre{
+      width: 100%;
+      min-height: 500px;
+    }
+    #musee-vertical{
+      width: 100%;
+      min-height: 800px;
+    }
 }
 
 @media (min-width: 768px) {
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 0px;
   }
 
@@ -259,28 +244,27 @@
   }
 
   h1 {
-    font-size: 7.2em;
+    font-size: 5.5em;
     line-height: 1.2em;
   }
 
   h2 {
     font-size: 3.3em;
-    line-height: 1.5em;
   }
 
   h3 {
     font-size: 2em;
-    line-height: 1.5em;
+    line-height: 2em;
   }
 
   h4 {
-    font-size: 1.5em;
+		font-size: 1.4em;
     line-height: 30px;
   }
 
   h5 {
-    font-size: 1.5em;
-    line-height: 1.8em;
+		font-size: 0.9em;
+    line-height: 1.3em;
     font-weight: 300;
   }
 
@@ -290,207 +274,173 @@
     font-size: 14px;
   }
 
-  /* FOOTER ________________________________*/
   footer {
-    padding-top: 70px;
-    padding-bottom: 30px;
-  }
-
-  footer h1 {
-    margin-bottom: 20px;
-  }
-
-  #questioncontact {
-    display: none;
-  }
-
-  #infoscontact {
-    display: block;
-  }
-
-  .cafe, .telephone, .mail {
-    margin-left: 0px;
-    margin-top: 15px;
-  }
-
-  #moyenscontact {
-    display: block;
-    margin-top: 70px;
-  }
-
-  /* MENU ________________________________*/
-  .entree-menu a {
-    padding-left: 20px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: none;
-  }
-
-  /*HOME ____________________________________________________________________________________*/
-  /*BASELINE __________________*/
-  #section-1 {
-    position: relative;
-    top: 60%;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  #baseline {
-    margin-top: 5%;
-    display: block;
-  }
-
-  #relatif {
-    display: none;
-  }
-
-  #designer {}
-
-  #experiences {
-    text-align: left;
-  }
-
-  .expertises {
-    display: flex;
-  }
-
-  .expertises .expertise {
-    margin-right: 30px;
-  }
-
-  /* EXPERTISES __________________*/
-  #expertises {
-    padding-top: 30px;
-    max-width: 100%;
-    display: block;
-  }
-
-  .identitevisuelle {
-    min-width: 100%;
-    margin-top: 20px;
-  }
-
-  .medias {
-    min-width: 100%;
-    margin-top: 20px;
-  }
-
-  .print {
-    min-width: 100%;
-    margin-top: 20px;
-  }
-
-  /*PROJETS ________________________________*/
-  #section-2 {
-    width: 100%;
-    margin: 0 auto;
     margin-top: 100px;
-  }
-
-  #archive {
-    align-items: baseline;
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-
-  #archive h4 {
-    margin-top: 0px;
-    font-size: 1.2em;
-  }
-
-  #tagbouton {
-    margin-top: 2px;
-    grid-column: 1/4;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
-  #tagbouton .bouton-secondaire h5 {
-    display: none;
-  }
-
-  #tagbouton .bouton-secondaire img {
-    transform: rotate(-90deg);
-  }
-
-  #clientarchive {}
-
-  #datearchive {}
-
-  #clientarchive {}
-
-  /* BIOGRAPHIE ________________________________*/
-  #section-3 {
-    padding-top: 10em;
-    padding-bottom: 30px;
-    display: block;
-  }
-
-  #phototxt {
-    grid-column: 1 / 5;
-    align-items: flex-end;
-  }
-
-  #biographie {
-    grid-column: 1 / 5;
-    text-align: left;
-    padding-top: 40px;
-  }
-
-  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
-  #section-4 {
     padding-bottom: 20px;
   }
 
-  /* PHOTOS ________________________________ */
-  .img-slider {
-    max-width: 400px;
+  footer h2 {
+    margin-bottom: 80px;
   }
 
-  .img-slider-vert {
-    max-width: 400px;
+  #questioncontact {
+  display: none;
   }
 
-  /* PAGE PROJET ________________________________ */
-  .projet {
-    display: block;
+  #moyenscontact {
+    display: flex;
+		justify-content: space-between;
   }
 
-  .galerie-projet {
-    width: 100%;
+	.cafe, .telephone, .mail {
+    margin-top: 10px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
+
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+
+  /*HOME ________________________________*/
+  /*BASELINE____________________________________________________________________________________*/
+
+	#section-1 {
+    position: relative;
+    top: 50%;
+    width: 92%;
+    margin: 5%;
+  }
+  #baseline h1{
+    font-size: 4.8em;
+    line-height: 1.2em;
+  }
+	.inline {
+		display: inline-flex;
+	}
+
+	#relatif {
+		position: relative;
+		top: 20%;
+		left: 10%;
+	}
+
+	#designer {
+		grid-column: 1 / 6;
+	}
+
+	#experiences {
+		grid-column: 2 / 7;
+	}
+
+	#expertises {
+		display: flex;
+		padding-top: 80px;
+
+	}
+	.expertises{
+	display: block;
+	}
+	.expertises .expertise{
+	margin-right: 0px;
+	}
+
+
+  /*PROJETS ________________________________*/
+	#archive {
+		align-items: baseline;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-gap: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#clientarchive {
+		grid-column: 2 / 5;
+	}
+
+	#datearchive {
+		grid-column: 1;
+	}
+	#tagbouton {
+		align-items: baseline;
+		grid-column: 5/11;
+		display: flex;
+		justify-content: space-between;
+	}
+	#tagbouton .bouton-secondaire h5 {
+		display: none;
+	}
+
+	#clientarchive {
+		grid-column: 2 / 4	;
+	}
+
+  /* BIOGRAPHIE ________________________________*/
+	#section-3 {
+    padding-top: 10em;
+    padding-bottom: 3em;
+    display: flex;
+  }
+	#phototxt {
+		grid-column: 1 / 3;
+		align-items: flex-end;
+	}
+  #biographie {
+    grid-column: 4 / 7;
+    font-size: 2.5em;
+    line-height: 1.4em;
+  }
+
+
+
+	/* PHOTOS ________________________________ */
+	.img-slider {
+		max-width: 550px;
+	}
+	.img-slider-vert {
+		max-width: 350px;
+	}
+	/* PAGE PROJET ________________________________________*/
+	.projet{
+		display:block;
+	}
+	.galerie-projet {
+	  width:100%;
     margin-top: 40px;
-    padding-left: 0;
-  }
+	  padding-left: 0;
+	}
 
-  .info-projet {
+  .info-projet{
     display: block;
     width: 100%;
     margin-top: 20px;
-  }
+	}
 
-  .video-par2 {
+  .video-par2{
     margin-top: 20px;
-    display: block;
+    display: flex;
     width: 100%;
+    justify-content: space-between;
   }
 
-  #musee-horiz {
+  #musee-horiz{
     width: 100%;
     min-height: 500px;
     margin-top: 20px;
   }
 
-  #musee-carre {
-    width: 100%;
-    min-height: 500px;
-  }
-
-  #musee-vertical {
-    width: 100%;
-    min-height: 800px;
+  #musee-carre, #musee-vertical{
+    width: 49%;
+    min-height: 450px;
   }
 }
 
@@ -517,8 +467,8 @@
   }
 
   h3 {
-    font-size: 2.1em;
-    line-height: 1.5em;
+    font-size: 1.8em;
+    line-height: 2em;
   }
 
   h4 {
@@ -541,29 +491,30 @@
     padding-bottom: 30px;
   }
 
-  footer h1 {
+  footer h2 {
     margin-bottom: 100px;
   }
 
   #questioncontact {
-    display: block;
+		display: block;
     max-width: 130px;
-    padding-bottom: 10px;
+		padding-bottom: 10px;
   }
 
   #moyenscontact {
     display: flex;
+
   }
 
   #infoscontact {
     display: flex;
-    align-items: flex-end;
+		align-items: flex-end;
   }
 
-  .cafe, .telephone, .mail {
-    margin-left: 30px;
-    margin-top: 10px;
-  }
+	.cafe, .telephone, .mail {
+		margin-left: 30px;
+		margin-top: 10px;
+	}
 
   /* MENU ________________________________*/
   .entree-menu {
@@ -580,17 +531,15 @@
 
   /*HOME ________________________________*/
   /*BASELINE____________________________________________________________________________________*/
-  #section-1 {
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  #baseline h1 {
+	#section-1 {
+		width: 92%;
+		margin: 0 auto;
+	}
+  #baseline h1{
     font-size: 5.5em;
     line-height: 1.2em;
   }
-
-  .inline {
+	.inline {
     display: inline-flex;
   }
 
@@ -613,21 +562,16 @@
     max-width: 60%;
   }
 
+
+
   /*PROJETS ________________________________*/
-  #section-2 {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
-  .projet-slider {
-    margin-left: 0;
-  }
-
-  #archive {
-    align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+	.projet-slider{
+			margin-left: 0 ;
+		}
+	#archive {
+		align-items:baseline;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
     grid-gap: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -640,18 +584,15 @@
   #datearchive {
     grid-column: 1;
   }
-
-  #tagbouton {
-    align-items: baseline;
-    grid-column: 5/11;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #tagbouton .bouton-secondaire h5 {
-    display: contents;
-  }
-
+	#tagbouton {
+		align-items:baseline;
+		grid-column: 5/11;
+		display: flex;
+		justify-content: space-between;
+	}
+	#tagbouton .bouton-secondaire h5 {
+		display:contents;
+	}
   #clientarchive {
     grid-column: 2 / 5;
   }
@@ -664,75 +605,71 @@
   }
 
   #biographie {
-    grid-column: 6 / 11;
-    }
+    grid-column: 7 / 11;
+    font-size: 2.5em;
+    line-height: 1.4em;
+  }
 
   #phototxt {
     grid-column: 1 / 4;
     align-items: flex-end;
   }
 
-  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
-  #section-4 {
-    padding-bottom: 70px;
-  }
-
-  /* PHOTOS ________________________________ */
-  .img-slider {
-    max-width: 700px;
-  }
-
-  .img-slider-vert {
-    max-width: 350px;
-  }
-
-  /* PAGE PROJET ________________________________________*/
-  .projet {
-    display: flex;
+	/* PHOTOS ________________________________ */
+	.img-slider {
+		max-width: 700px;
+	}
+	.img-slider-vert {
+		max-width: 350px;
+	}
+	/* PAGE PROJET ________________________________________*/
+	.projet{
+		display: flex;
     justify-content: space-between;
-  }
-
-  .galerie-projet {
-    width: 50%;
-    padding-left: 5%;
+	}
+	.galerie-projet {
+	  width:50%;
+	  padding-left: 5%;
     margin-top: 0px;
-  }
+	}
 
-  .info-projet {
+	.info-projet{
     display: block;
     width: 30%;
     margin-top: 20px;
     align-items: top;
-    justify-content: flex-start;
+    justify-content:flex-start;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
-    top: 10%;
+    top: 5%;
     height: 20%;
-  }
+	}
 
-  .video-par2 {
+  .video-par2{
     margin-top: 20px;
     display: block;
     width: 100%;
   }
 
-  #musee-horiz {
+  #musee-horiz{
     width: 100%;
     min-height: 500px;
     margin-top: 20px;
   }
 
-  #musee-carre {
+  #musee-carre{
     width: 100%;
     min-height: 500px;
   }
-
-  #musee-vertical {
+  #musee-vertical{
     width: 100%;
     min-height: 800px;
   }
 }
+
+
+
 
 @media (min-width: 1281px) {
   .wrapper {
@@ -756,20 +693,18 @@
   }
 
   h3 {
-    font-size: 2.6em;
-    line-height: 1.4em;
+    font-size: 2.2em;
+    line-height: 2em;
   }
 
   h4 {
     font-size: 1.3em;
     line-height: 30px;
   }
-
-  .projet-card h4 {
+  .projet-card h4{
     font-size: 2em;
     line-height: 30px;
   }
-
   h5 {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -780,26 +715,13 @@
     font-size: 14px;
   }
 
-  /* MENU ________________________________*/
-  .entree-menu {
-    margin-left: 50px;
-  }
-
-  .entree-menu a {
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-  }
-
   /* FOOTER ________________________________*/
   footer {
     margin-top: 8em;
     margin-bottom: 10px;
   }
 
-  footer h1 {
+  footer h2 {
     margin-bottom: 2em;
   }
 
@@ -819,19 +741,31 @@
     margin-left: 40px;
   }
 
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
+
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+
   /*HOME ________________________________*/
   /*BASELINE____________________________________________________________________________________*/
-  #baseline h1 {
-    font-size: 7em;
-    line-height: 1em;
-  }
+#baseline h1{
+  font-size: 7em;
+  line-height: 1em;
+}
+	  #section-1 {
+	    width: 92%;
+	    margin: 0 auto;
+	  }
 
-  #section-1 {
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  .inline {
+		.inline {
     display: inline-flex;
   }
 
@@ -855,17 +789,19 @@
     display: flex;
   }
 
+
   /*PROJETS ________________________________*/
-  #section-2 {
-    width: 100%;
+
+	#section-2{
+		width: 100%;
     margin: 0 auto;
-    margin-top: 150px;
-  }
+	}
+
 
   #archive {
-    align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+		align-items:baseline;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
     grid-gap: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -878,18 +814,15 @@
   #datearchive {
     grid-column: 1;
   }
-
-  #tagbouton {
-    align-items: baseline;
-    grid-column: 6/11;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #tagbouton .bouton-secondaire h5 {
-    display: contents;
-  }
-
+	#tagbouton {
+		align-items:baseline;
+		grid-column: 6/11;
+		display: flex;
+		justify-content: space-between;
+	}
+	#tagbouton .bouton-secondaire h5 {
+		display:contents;
+	}
   #clientarchive {
     grid-column: 2 / 5;
   }
@@ -897,7 +830,7 @@
   /*BIOGRAPHIE____________________________________________________________________________________*/
   #section-3 {
     padding-top: 10em;
-    padding-bottom: 150px;
+    padding-bottom: 6em;
   }
 
   #phototxt {
@@ -906,51 +839,46 @@
   }
 
   #biographie {
+    font-size: 3.1em;
+    line-height: 1.4em;
     grid-column: 6 / 11;
   }
+	/* PHOTOS ________________________________ */
+	.img-slider {
+		max-width: 800px;
+	}
+	.img-slider-vert {
+		max-width: 450px;
+	}
 
-  /*VOUS AIMEREZ AUSSI ____________________________________________________________________________________*/
-  #section-4 {
-    padding-bottom: 85px;
-  }
+	.projet-slider{
+	}
 
-  /* PHOTOS ________________________________ */
-  .img-slider {
-    max-width: 800px;
-  }
-
-  .img-slider-vert {
-    max-width: 450px;
-  }
-
-  .projet-slider {}
-
-  /* PAGE PROJET ________________________________________*/
-  .projet {
-    display: flex;
+	/* PAGE PROJET ________________________________________*/
+	.projet{
+		display: flex;
     justify-content: space-between;
-  }
-
-  .galerie-projet {
-    width: 60%;
-    padding-left: 5%;
+	}
+	.galerie-projet {
+	  width:60%;
+	  padding-left: 5%;
     margin-top: 0px;
-  }
+	}
 
-  .info-projet {
-    display: block;
-    width: 30%;
-    margin-top: 20px;
-    align-items: top;
-    justify-content: flex-start;
-    align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10%;
-    height: 20%;
-  }
+	.info-projet{
+		display: block;
+	  width: 30%;
+	  margin-top: 20px;
+	  align-items: top;
+	  justify-content:flex-start;
+	  align-items: center;
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 5%;
+	  height: 20%;
+	}
 
-  .video-par2 {
+  .video-par2{
     margin-top: 20px;
     display: flex;
     width: 100%;
@@ -958,14 +886,15 @@
     justify-content: space-between;
   }
 
-  #musee-horiz {
+  #musee-horiz{
     width: 100%;
     min-height: 500px;
     margin-top: 20px;
   }
 
-  #musee-carre, #musee-vertical {
+  #musee-carre, #musee-vertical{
     width: 49%;
     min-height: 400px;
+
   }
 }
