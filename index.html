@@ -141,7 +141,7 @@
               <img class="img-slider" src="images/vignettes/ey.jpg " alt="Eurocean youth">
             </div>
             <div class="infos-slider">
-              <h4>Eurocean youth</h4>
+              <h4>Eurocean's youth</h4>
               <div class="tags">
                 <h5 class="tag">Direction artistique</h5>
                 <h5 class="tag">Édition</h5>
@@ -181,6 +181,23 @@
           <img class="fleche" src="images/svg/fleche.svg" alt="fleche">
         </div>
         <hr class="archives">
+        <a href="candyshop.html">
+          <div id="archive">
+            <h5 id="datearchive">2023</h5>
+            <h4 id="clientarchive">Candyshop</h4>
+            <div id="tagbouton">
+              <div class="tags">
+                <h5 class="tag">Identité visuelle</h5>
+                <h5 class="tag">Webdesign UI/UX</h5>
+              </div>
+              <div class="bouton-secondaire">
+                <h5>Découvrir le projet</h5>
+                <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+              </div>
+            </div>
+          </div>
+        </a>
+        <hr class="archives">
         <a href="musee-romanite.html">
           <div id="archive">
             <h5 id="datearchive">2021</h5>
@@ -198,21 +215,7 @@
         </a>
 
         <hr>
-        <a href="culturebox.html">
-        <div id="archive">
-          <h5 id="datearchive">2020</h5>
-          <h4 id="clientarchive">Culturebox France TV</h4>
-          <div id="tagbouton">
-            <div class="tags">
-              <h5 class="tag">Motion design</h5>
-            </div>
-            <div class="bouton-secondaire">
-              <h5>Découvrir le projet</h5>
-              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
-            </div>
-          </div>
-        </div></a>
-        <hr>
+
         <a href="vivre-autrement.html">
         <div id="archive">
           <h5 id="datearchive">2021</h5>
@@ -221,6 +224,21 @@
             <div class="tags">
               <h5 class="tag">Identité visuelle</h5>
               <h5 class="tag">Webdesign UI/UX</h5>
+            </div>
+            <div class="bouton-secondaire">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
+        </div></a>
+        <hr>
+        <a href="culturebox.html">
+        <div id="archive">
+          <h5 id="datearchive">2020</h5>
+          <h4 id="clientarchive">Culturebox France TV</h4>
+          <div id="tagbouton">
+            <div class="tags">
+              <h5 class="tag">Motion design</h5>
             </div>
             <div class="bouton-secondaire">
               <h5>Découvrir le projet</h5>
@@ -257,10 +275,8 @@
           <img class="audrey" src="images/designer.jpg" alt="The designer">
           <h5>Let's make something amazing together</h5>
         </div>
-        <h3 id="biographie" class="droite">My focus is helping companies to champion their work,optimise design departments and leap what’s next. I'm here to raise the bar, help outclass the competition and compliment each other to get the most out
-          of
-          your design departments and organisation.
-        </h3>
+        <h3 id="biographie" class="droite">J'aide les entreprises à se démarquer et à transmettre efficacement leur message.
+Mon objectif est de fournir des solutions qui non seulement attirent l'attention, mais qui aussi engagent et inspirent le public cible. En restant à l'écoute des besoins spécifiques de mes clients et en étant proactive dans la recherche de solutions novatrices, je m'efforce de dépasser les attentes à chaque étape du processus de conception.</h3>
 
       </div>
 
@@ -270,7 +286,7 @@
 
     <footer id="contact">
       <hr><br>
-      <h2>Contact</h2>
+      <h1>Contact</h1>
       <div id="infoscontact" class="">
         <h5 id="questioncontact">Un projet ? Une question ? Parlons-en !</h5>
         <div id="moyenscontact">
@@ -325,37 +341,7 @@
       updateButtonState();
     });
   </script>
-  <script>
-    $(window).scroll(function() {
 
-      // selectors
-      var $window = $(window),
-        $body = $('body'),
-        $panel = $('.panel');
-
-      // Change 33% earlier than scroll position so colour is there when you arrive.
-      var scroll = $window.scrollTop() + ($window.height() / 3);
-
-      $panel.each(function() {
-        var $this = $(this);
-
-        // if position is within range of this panel.
-        // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-        // Remember we set the scroll to 33% earlier in scroll var.
-        if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-
-          // Remove all classes on body with color-
-          $body.removeClass(function(index, css) {
-            return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
-          });
-
-          // Add class of currently active div
-          $body.addClass('color-' + $(this).data('color'));
-        }
-      });
-
-    }).scroll();
-  </script>
 
 
 
