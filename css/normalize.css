@@ -1,8 +1,8 @@
 body {
   max-width: 100%;
   margin: 0 auto;
-    background-color:var(--text-color-dark);
-    transition: background-color 0.35s ease;
+  background-color:var(--text-color-dark);
+
   }
 
 .color-color1 {
@@ -39,13 +39,12 @@ a:hover {
   cursor: pointer;
 }
 a {
-
   text-decoration: none;
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
 }
 
 .entree-menu:hover a {
-  border: solid 0.5px var(--text-color-dark);
+  border: solid 0.5px;
   border-radius: 50%;
 }
 
@@ -102,22 +101,6 @@ margin-right: 10px;
 
 
 
-
-/*SECTION 1 __________________________________________________________________________________________*/
-
-.expertise{
-  margin-bottom: 6px;
-}
-
-
-
-/*BASELINE____________________________________________________________________________________*/
-
- #expertises hr{
-    border: dashed 0.5px var(--text-color-dark);
-}
-
-
 /*EXPERTISE____________________________________________________________________________________*/
 
 
@@ -141,9 +124,6 @@ hr #expertises {
   margin-top: 5em;
   margin-bottom: 2em;
 }
-#realisations{
-padding-top: 10em;
-}
 
 .sliderprojet .tag {
 padding-left: 10px;
@@ -156,6 +136,8 @@ margin-right: 10px;
 .sliderprojet .tags {
   padding:0;
 padding-top: 10px;}
+
+
 /*Selection____________________________________________________________________________________*/
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
@@ -185,9 +167,6 @@ button {
   width: 100%;
   margin: auto;
 }
-
-
-
 
 .projet-slider {
   display: flex;
