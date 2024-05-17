@@ -1,5 +1,12 @@
 /*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 381px) and (max-width: 855px) {
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 855px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+ {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -245,7 +252,7 @@
   }
 }
 
-@media (min-width: 856px) {
+@media only screen (min-width: 856px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -473,7 +480,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media only screen (min-width: 1025px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -713,7 +720,7 @@
   }
 }
 
-@media (min-width: 1281px) {
+@media only screen (min-width: 1281px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);

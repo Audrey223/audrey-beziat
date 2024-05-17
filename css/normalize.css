@@ -30,7 +30,9 @@ hr {
 
 a:hover {
   cursor: pointer;
+  text-decoration: none;
 }
+link{text-decoration: underline;}
 #link{
   text-decoration: underline;
 
@@ -39,7 +41,6 @@ a:hover {
   cursor: pointer;
 }
 a {
-
   text-decoration: none;
   color: var(--text-color-light);
 }
