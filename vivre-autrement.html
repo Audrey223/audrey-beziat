@@ -3,146 +3,202 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Vivre autrement</title>
+  <title>Design graphique - Vivre autrement</title>
   <link rel="icon" type="images/fav.png" sizes="32x32" href="images/fav.png">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/typo.css">
   <link rel="stylesheet" href="css/images.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
 
-  <section id="section1">
-    <header class="gd-3colheader">
+  <div id="up"><img class="fleche" src="images/svg/fleche-dark.svg" alt="fleche"></div>
 
-        <a href="index.html"><img class="logo" src="images/nlogo.png" alt="logo"></a>
-        <div class="header">
-          <p class="item"><a href="portfolio.html">Réalisations</a></p>
-          <p class="item"><a href="a-propos.html">À propos</a></p>
-          <div id="rect" class="item"></div>
-          <p class="item ogg" id="contact"><a href="mailto:beziataudrey@gmail.fr">Contact<a></p>
-          <div class="item">
-            <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-            <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
+  <section class="panel" data-color="color2">
+    <div id="header">
+      <div id="menu">
+        <a href="index.html"><img class="logo" src="images/svg/logo.svg" alt="logo"></a>
+        <div id="entrees">
+          <h5 class="entree-menu inactive"><a href="index.html">Expertise</a></h5>
+          <h5 class="entree-menu"><a href="index.html#section2">Réalisations</a></h5>
+          <h5 class="entree-menu"><a href="#contact">Contact</a></h5>
+        </div>
+
+      </div>
+      <hr>
+    </div>
+
+    <div class="projet" id="vivre-autrement">
+      <div class="info-projet">
+        <div class="client-date">
+          <h5 class="client">Projet de fin d'étude</h5>
+          <h5 class="date">2021</h5>
+        </div>
+        <h1>Vivre autrement</h1>
+        <div class="tags">
+          <h5 class="tag">Identité visuelle</h5>
+          <h5 class="tag">Webdesign UI/UX</h5>
+        </div>
+        <p>Nous vivons dans l’abondance, la surabondance, induites par une frénésie d’hyper-consommation. L’épanouissement du plus grand nombre semble ne pouvoir être atteint que par la possession d’objets, trop souvent superflus. Mais petit à petit,
+          les esprits s’éveillent. N’aurait-on pas intérêt à vivre autrement ?<br>
+
+          Des gestes concrets, parfois minimes à l’échelle d’un individu, peuvent mener à de grands
+          changements à plus grande échelle. L’efficacité de nos actions résulte donc de la collaboration des membres d’une communauté. De ce constat est né l’envie de construire une communauté ayant pour ambition de défendre un projet commun :
+          développer notre conscience éco-citoyenne. Le site vivre autrement a pour vocation d’apporter des ressources diverses pour vous accompagner vers un mode de vie éco-responsable.
+
+      </div>
+      <div class="galerie-projet">
+        <img class="img-projet" src="images/vivre-autrement/mobile/mobile.jpg" alt="Vivre autrement">
+        <div class="img-mobile">
+          <img class="img-projet-mobile" src="images/vivre-autrement/mobile/podcast-1.jpg" alt="Vivre autrement">
+          <img class="img-projet-mobile" src="images/vivre-autrement/mobile/podcast-2.jpg" alt="Vivre autrement">
+          <img class="img-projet-mobile" src="images/vivre-autrement/mobile/podcast-3.jpg" alt="Vivre autrement">
+        </div>
+        <img class="img-projet" src="images/vivre-autrement/desktop/home.jpg" alt="La Régate">
+        <img class="img-projet" src="images/vivre-autrement/desktop/compte.jpg" alt="Vivre autrement">
+        <img class="img-projet" src="images/vivre-autrement/desktop/messagerie.jpg" alt="Vivre autrement">
+        <img class="img-projet" src="images/vivre-autrement/desktop/agenda.jpg" alt="Vivre autrement">
+
+
+
+        </div>
+
+    </div>
+  </section>
+
+
+  <section id="section-4" class="panel sliderprojet" data-color="color1">
+    <div class="title marges">
+      <hr>
+      <br>
+      <div id="nav" class='flex'>
+        <h2>Vous aimerez aussi</h2>
+        <div class="label-container">
+          <button class="projet-arrow-left"><img class="fleche left" src="images/svg/fleche.svg" alt="fleche"></button>
+          <button class="projet-arrow-right"><img class="fleche right" src="images/svg/fleche.svg" alt="fleche"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projet-slider">
+
+      <a href="naughty-games.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/naughty-games.jpg" alt="naughty games">
           </div>
+          <div class="infos-slider">
+            <h4>Naughty games</h4>
+            <div class="tags">
+              <h5 class="tag">Identité visuelle</h5>
+              <h5 class="tag">Webdesign UI/UX</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
 
+          </div>
         </div>
-
-    </header>
-  </section>
-
-<section>
-  <div class="pageprojet">
-    <div class="gd-3colentete">
-      <div class="entete">
-        <h1>VIVRE AUTREMENT</h1>
-
-      </div>
-      <div class="client">
-      </div>
-      <div class="date">
-        <h3>2021</h3>
-      </div>
-    </div>
-<section>
-  <div class="gd-2col">
-    <p class="bottom"><img class="horizdeco" src="images/vivreautrement/va.jpg" alt=""></p>
-<p>Réalisé dans le cadre de mon projet de fin d'étude au sein de l'ECV Bordeaux, j'ai souhaité travaillé sur un sujet qui me tient à coeur : développer notre conscience éco citoyenne.
-<br>Ce projet a été décliné version web ainsi qu'en une application.<br><br>Nous vivons dans l’abondance, la surabondance, induites par une
-frénésie d’hyper-consommation. L’épanouissement du plus grand nombre
-semble ne pouvoir être atteint que par la possession d’objets, trop souvent
-superflus. Mais petit à petit, les esprits s’éveillent.
-À l’heure actuelle, beaucoup réalisent que ce mode de vie ainsi que les
-moyens de production qu’il implique sont mauvais, voire inacceptables.
-N’aurait-on pas intérêt à vivre autrement ?
-
-<br><br>Chacun à notre échelle avons les moyens, grâce à nos actions quotidiennes, d’évoluer vers un mode de vie plus durable et soucieux de l’environnement. Des gestes concrets, parfois minimes à l’échelle d’un individu, peuvent mener à de grands changements à plus grande échelle. L’efficacité de nos actions résulte donc de la collaboration des membres d’une communauté.
-De ce constat est né l’envie de construire une communauté ayant pour ambition de défendre un projet commun : développer notre conscience éco-citoyenne.
-
-Le site vivre autrement a pour vocation d’apporter des ressources diverses pour vous accompagner vers un mode de vie éco-responsable.    </p>
-</p></div>
-      <img class="pleinepage" src="images/vivreautrement/1.png" alt="">
-</section>
-<section>
-  <div class="gd-2col">
-    <p><i>La direction artistique</i> de ce projet est inspiré du style Bahaus, melant minimalisme & intemporalité.
-<br>
-Le beige et le vert utilisés sont des couleurs qui parlent en terme d’environnement. Le orange, lui, apporte du peps, du plaisir & de l’optimisme.
-Le fond texturé permet d'apporter de la chaleur et de s’éloigner de quelque chose de trop lisse, peu
-sympathique.
-<br>
-Les typographies utilisées permettent de donner une identité forte.
-Classique, polyvalente et intemporel, Kobe apporte force et clarté  au contenu.
-Alliée à la Nord, (du même studio typo Violaine & Jérémy), elle apporte force et sérieux tout en sortant des
-typographies vue et revue sur le web.
-<br>
-J’ai également souhaité mettre en avant la bancalité de la situation environnementale en utilisant
-des lignes structurante jamais droite et des photos quadrilatérales, sans angle droit.
-​
-<br><br>
-Ce site internet à l'identité forte, mêle un côté rétro (colorimétrie, style d'images) à la modernité de notre temps grâce à une typographie et une structure actuelle.</p>
-<div>
-
-
-
-  </div>
-</section>
-  <section>
-    <div class="gd-2col">
-      <div class="gauchedecodeur">
-        <div class="deco">
-          <img src="images/vivreautrement/3.jpg" alt="" class="horizdeco">
+      </a>
+      <a href="euroceansyouth.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider-vert" src="images/vignettes/ey-vert.jpg" alt="eurocean's youth">
+          </div>
+          <div class="infos-slider">
+            <h4>Eurocean's youth</h4>
+            <div class="tags">
+              <h5 class="tag">Direction artistique</h5>
+              <h5 class="tag">Identité visuelle</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="droitedecodeur">
-        <div class="deco">
-          <img src="images/vivreautrement/5.jpg" alt="" class="horizdeco">
+      </a>
+      <a href="culturebox.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/culturebox.jpg" alt="culturebox">
+          </div>
+          <div class="infos-slider">
+            <h4>Culturebox</h4>
+            <div class="tags">
+              <h5 class="tag">Motion design</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
         </div>
-        <div class="deco">
-          <img src="images/vivreautrement/6.jpg" alt="" class="horizdeco">
-        </div>
-      </div>
+      </a>
+
+
     </div>
   </section>
-  <section>
-    <h4 class="centre"><a href="https://www.figma.com/proto/APtufn1mHZAOgIiCG5dxfk/PC-and-TEL-VIVRE-AUTREMENT-PFE?page-id=153%3A898&node-id=156%3A6&viewport=304%2C443%2C0.015625&scaling=min-zoom&starting-point-node-id=156%3A6">PROTOTYPE ORDINATEUR DISPONIBLE <i class="ogg"> - ici</i></a></h4>
-    <h4 class="centre"><a href="https://www.figma.com/proto/APtufn1mHZAOgIiCG5dxfk/PC-and-TEL-VIVRE-AUTREMENT-PFE?page-id=455%3A2035&node-id=455%3A2036">PROTOTYPE MOBILE DISPONIBLE <i class="ogg"> - ici</i></a></h4>
 
 
-
-
-  </div>
-</section>
-
-<div class="suivantprecedent">
-  <div class="suivprec"><a href="regate.html">
-      <p id="precedent">Préc.</p>
-    </a></div>
-  <div class="suivprec retour"><a href="portfolio.html">
-      <p class="ogg">Retour aux réalisations</p>
-    </a></div>
-  <div class="suivprec"><a href="culturebox.html">
-      <p id="suivant">Suiv.</p>
-    </a></div>
-</div>
-
-
-<footer><hr>
-  <div class="gd-2col">
-<div><h1>UNE QUESTION ?</h1><h1 class="ogg italicc">Parlons-en !</h1></div>
-
-    <div class="infos">
-      <h4>33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h4>
-      <div class="reseaux">
-      <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-      <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
+  <footer id="contact">
+    <hr><br>
+    <h1>Contact</h1>
+    <div id="infoscontact" class="">
+      <h5 id="questioncontact">Un projet ? Une question ? Parlons-en !</h5>
+      <div id="moyenscontact">
+        <div class="mail">
+          <h5 class="">Par mail</h5>
+          <h3 class="">beziataudrey@gmail.com</h3>
+        </div>
+        <div class="telephone">
+          <h5 class="">Par téléphone</h5>
+          <h3 class="">06 83 28 43 81</h3>
+        </div>
+        <div class="cafe">
+          <h5 class="">Autour d'un café</h5>
+          <h3 class="">Annecy, France</h3>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
-  <p class="copyright">© 2021 Développé par Audrey Béziat.</p>
-</footer>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const projetContainer = document.querySelector(".projet-slider");
+      const leftRButton = document.querySelector(".projet-arrow-left");
+      const rightRButton = document.querySelector(".projet-arrow-right");
+
+      function updateButtonState() {
+        leftRButton.disabled = projetContainer.scrollLeft <= 0;
+        rightRButton.disabled =
+          projetContainer.scrollLeft + projetContainer.offsetWidth >=
+          projetContainer.scrollWidth;
+      }
+
+      leftRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: -projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      rightRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      projetContainer.addEventListener("scroll", updateButtonState);
+      updateButtonState();
+    });
+  </script>
+
+
 </body>
 
 </html>

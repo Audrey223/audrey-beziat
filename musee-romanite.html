@@ -3,133 +3,197 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Le musée de la Romanité</title>
+  <title>Design graphique - Musée de la romanité</title>
   <link rel="icon" type="images/fav.png" sizes="32x32" href="images/fav.png">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/typo.css">
   <link rel="stylesheet" href="css/images.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
 
-  <section id="section1">
-    <header class="gd-3colheader">
+  <div id="up"><img class="fleche" src="images/svg/fleche-dark.svg" alt="fleche"></div>
 
-        <a href="index.html"><img class="logo" src="images/nlogo.png" alt="logo"></a>
-        <div class="header">
-          <p class="item"><a href="portfolio.html">Réalisations</a></p>
-          <p class="item"><a href="a-propos.html">À propos</a></p>
-          <div id="rect" class="item"></div>
-          <p class="item ogg" id="contact"><a href="mailto:beziataudrey@gmail.fr">Contact<a></p>
-          <div class="item">
-            <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-            <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
-          </div>
-
+  <section class="panel" data-color="color2">
+    <div id="header">
+      <div id="menu">
+        <a href="index.html"><img class="logo" src="images/svg/logo.svg" alt="logo"></a>
+        <div id="entrees">
+          <h5 class="entree-menu inactive"><a href="index.html">Expertise</a></h5>
+          <h5 class="entree-menu"><a href="index.html#section2">Réalisations</a></h5>
+          <h5 class="entree-menu"><a href="#contact">Contact</a></h5>
         </div>
 
-    </header>
+      </div>
+      <hr>
+    </div>
+
+    <div class="projet" id="musee-romanite">
+      <div class="info-projet">
+        <div class="client-date">
+          <h5 class="client">Projet fictif</h5>
+          <h5 class="date">2021</h5>
+        </div>
+        <h1>Musée de la Romanité</h1>
+        <div class="tags">
+          <h5 class="tag">Motion design</h5>
+        </div>
+        <p>Ce motion design utilise la réponse de l'agence de communication parisienne Graphéine à l'appel d'offre du musée de la romanité pour la refonte de leur identité visuelle - consultable <a id="link"
+            href="https://www.grapheine.com/branding/identite-visuelle-musee-romanite-nimes">ici</a>). <br>L'objectif était de montrer comment cette identité visuelle
+          pouvait être déclinée en vidéo telle que la promotion d'une exposition.</p>
+      </div>
+
+      <div class="galerie-projet">
+        <img class="img-projet" src="images/musee-romanite/logo.jpg" alt="Grapheine">
+        <div class="img-par2">
+          <img class="img-projet" src="images/musee-romanite/grapheine.jpg" alt="Grapheine">
+          <img class="img-projet" src="images/musee-romanite/mobile.jpg" alt="Musée de la Romanité">
+        </div>
+
+        <iframe id="musee-horiz" src="https://www.youtube.com/embed/HG_I9lieNww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-par2">
+          <iframe id="musee-vertical" src="https://www.youtube.com/embed/BlhhHfs7qSg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="musee-carre" src="https://www.youtube.com/embed/cQe8JSo9PPg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+    </div>
   </section>
 
 
-  <section>
-    <div class="pageprojet">
-      <div class="gd-3colentete">
-        <div class="entete">
-          <h1>MUSÉE DE LA ROMANITÉ</h1>
-
+  <section id="section-4" class="panel sliderprojet" data-color="color1">
+    <div class="title marges">
+      <hr>
+      <br>
+      <div id="nav" class='flex'>
+        <h2>Vous aimerez aussi</h2>
+        <div class="label-container">
+          <button class="projet-arrow-left"><img class="fleche left" src="images/svg/fleche.svg" alt="fleche"></button>
+          <button class="projet-arrow-right"><img class="fleche right" src="images/svg/fleche.svg" alt="fleche"></button>
         </div>
-        <div class="client">
-        </div>
-        <div class="date">
-          <h3>2021</h3>
-        </div>
-      </div>
-      <section>
-
-        <div class="gd-2col">
-          <p>Le but de ce site est d'abord d'encourager l'utilisateur à éteindre son écran pour aller jouer en extérieur. Pour ce faire, notre plateforme se présente sous la forme d'un site tunnel dans lequel, passé un certain stade, l'utilisateur ne
-            peut plus revenir en arrière et se trouve face à une page ne lui proposant aucune interaction, ne lui laissant aucun autre choix que de quitter le site.Également, l'utilisateur ne peut jouer et s'entraîner que 3 fois maximum à chaque jeu,
-            ce qui crée une véritable frustration chez lui et le pousse à y rejouer... hors écran cette fois. La corrélation des faits que l'utilisateur n'ait pu jouer que 3 fois en ligne et qu'il puisse se retrouver dans une impasse si le jeu lui
-            plaît, le pousseront à jouer en dehors des écrans.</p>
-          <img class="droitepassion" src="images/musee-romanite/grapheine-logo.jpg" alt="">
-        </div>
-      </section>
-      <section>
-        <p><u>Voici la proposition de graphéine :</u></p>
-      </section>
-      <section>
-        <div class="gd-2col">
-          <img class="droitepassion" src="images/musee-romanite/archi-logo.jpg" alt="">
-          <img class="droitepassion" src="images/musee-romanite/decli-logo.jpg" alt="">
-        </div>
-      </section>
-
-      <div class="gd-2col">
-        <img class="droitepassion" src="images/musee-romanite/grapheine-prop.jpg" alt="">
-        <img class="droitepassion" src="images/musee-romanite/grapheine-prop2.png" alt="">
-      </div>
-
-      <section>
-        <img class="pleinepage" src="images/musee-romanite/grapheine-prop1.jpg" alt="">
-      </section>
-
-      <section>
-        <div class="gd-3col">
-          <p class="gauchemusee">En m'appuyant sur leur proposition, j'ai réalisé une vidéo permettant de montrer comment cette identité visuelle aurait pu s'animer.
-            Il s'agit ici de la promotion d'exposition.
-            <br><br>
-            Cette vidéo a été décliné en format vertical et carré pour pouvoir être diffusés sur les réseaux sociaux.</p>
-          <iframe class="droitemusee"  src="https://www.youtube.com/embed/HG_I9lieNww" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </section>
-
-      <section>
-        <div class="flex">
-          <div><iframe class="romaniteright"  src="https://www.youtube.com/embed/BlhhHfs7qSg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
-            <div><iframe class="romanite2" src="https://www.youtube.com/embed/cQe8JSo9PPg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-        </div>
-      </section>
-
-  </section>
-
-
-
-  </div>
-  </section>
-
-  <div class="suivantprecedent">
-    <div class="suivprec"><a href="meteo.html">
-        <p id="precedent">Préc.</p>
-      </a></div>
-    <div class="suivprec retour"><a href="portfolio.html">
-        <p class="ogg">Retour aux réalisations</p>
-      </a></div>
-    <div class="suivprec"><a href="naughty-games.html">
-        <p id="suivant">Suiv.</p>
-      </a></div>
-  </div>
-
-
-  <footer><hr>
-    <div class="gd-2col">
-  <div><h1>UNE QUESTION ?</h1><h1 class="ogg italicc">Parlons-en !</h1></div>
-
-      <div class="infos">
-        <h4>33 000 BORDEAUX, FRANCE<br>BEZIATAUDREY(AT)GMAIL.COM<br>+33 6 83 28 43 81</h4>
-        <div class="reseaux">
-        <a href="https://www.linkedin.com/in/audrey-b%C3%A9ziat-365179114/"><img class="rs" src="images/linkedin.png" alt="linkedin"></a>
-        <a href="https://www.instagram.com/audrey_beziat/"><img class="rs" src="images/instagram.png" alt="instagram"></a>
-      </div>
       </div>
     </div>
-    <p class="copyright">© 2021 Développé par Audrey Béziat.</p>
+
+    <div class="projet-slider">
+
+
+      <a href="culturebox.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/culturebox.jpg" alt="culturebox">
+          </div>
+          <div class="infos-slider">
+            <h4>Culturebox</h4>
+            <div class="tags">
+              <h5 class="tag">Motion design</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="vivre-autrement.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider-vert" src="images/vignettes/vivre-autrement-vert.jpg " alt="Vivre autrement">
+          </div>
+          <div class="infos-slider">
+            <h4>Vivre autrement</h4>
+            <div class="tags">
+              <h5 class="tag">Direction artistique</h5>
+              <h5 class="tag">Identité visuelle</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="euroceansyouth.html">
+        <div class="projet-card">
+          <div class="image-container">
+            <img class="img-slider" src="images/vignettes/ey.jpg" alt="eurocean's youth">
+          </div>
+          <div class="infos-slider">
+            <h4>Eurocean's youth</h4>
+            <div class="tags">
+              <h5 class="tag">Direction artistique</h5>
+              <h5 class="tag">Identité visuelle</h5>
+            </div>
+            <div class="bouton-secondaire decouvrir">
+              <h5>Découvrir le projet</h5>
+              <img class="fleche-rotate" src="images/svg/fleche.svg" alt="fleche">
+            </div>
+          </div>
+        </div>
+      </a>
+
+
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <hr><br>
+    <h1>Contact</h1>
+    <div id="infoscontact" class="">
+      <h5 id="questioncontact">Un projet ? Une question ? Parlons-en !</h5>
+      <div id="moyenscontact">
+        <div class="mail">
+          <h5 class="">Par mail</h5>
+          <h3 class="">beziataudrey@gmail.com</h3>
+        </div>
+        <div class="telephone">
+          <h5 class="">Par téléphone</h5>
+          <h3 class="">06 83 28 43 81</h3>
+        </div>
+        <div class="cafe">
+          <h5 class="">Autour d'un café</h5>
+          <h3 class="">Annecy, France</h3>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const projetContainer = document.querySelector(".projet-slider");
+      const leftRButton = document.querySelector(".projet-arrow-left");
+      const rightRButton = document.querySelector(".projet-arrow-right");
+
+      function updateButtonState() {
+        leftRButton.disabled = projetContainer.scrollLeft <= 0;
+        rightRButton.disabled =
+          projetContainer.scrollLeft + projetContainer.offsetWidth >=
+          projetContainer.scrollWidth;
+      }
+
+      leftRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: -projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      rightRButton.onclick = function() {
+        projetContainer.scrollBy({
+          left: projetContainer.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      };
+
+      projetContainer.addEventListener("scroll", updateButtonState);
+      updateButtonState();
+    });
+  </script>
+
+
 </body>
 
 </html>
