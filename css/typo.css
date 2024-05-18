@@ -30,7 +30,7 @@ html {
   --p-font: 'Overpass Mono', monospace;
   --text-color-light: #FAF7F5; /*clair ancien :ECE8DF*/
   --text-color-dark: #121415;
-  --background-color: #B0523E;
+  --background-color: #121415;
 }
 
 body {
@@ -69,6 +69,7 @@ h3 {
   font-family: var(--h3-font);
   font-weight: 300;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 h4 {
