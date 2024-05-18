@@ -1,256 +1,6 @@
-/*low resolution tablets, mobiles (landscape)*/
-@media screen and (min-width: 350px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0px;
-  }
+@media only screen and (max-width: 600px) {}
 
-  p {
-    font-size: 0.9em;
-    line-height: 1.5em;
-  }
-
-  h1 {
-    font-size: 7em;
-    line-height: 1.2em;
-  }
-
-  h2 {
-    font-size: 6em;
-  }
-
-  h3 {
-    font-size: 2.4em;
-    line-height: 1.8em;
-  }
-
-  h4 {
-    font-size: 3em;
-    line-height: 1.5em;
-  }
-
-  h5 {
-    font-size: 1.6em;
-    line-height: 1.5em;
-  }
-
-  h6 {
-    line-height: 2em;
-    font-size: 14px;
-  }
-
-  /* FOOTER ________________________________*/
-  footer {
-    padding-top: 70px;
-    padding-bottom: 30px;
-  }
-
-  footer h2 {
-    margin-bottom: 20px;
-  }
-
-  #questioncontact {
-    display: none;
-  }
-
-  #infoscontact {
-    display: block;
-  }
-
-  .cafe, .telephone, .mail {
-    margin-left: 0px;
-    margin-top: 15px;
-    padding-bottom: 1.2em;
-  }
-  .cafe h5, .telephone h5, .mail h5{
-    font-size: 0.75em;
-    line-height: 2em;
-  }
-  #moyenscontact {
-    display: block;
-    margin-top: 70px;
-  }
-
-  /* MENU ________________________________*/
-  .entree-menu a {
-    padding-left: 40px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: none;
-  }
-
-  /*HOME ____________________________________________________________________________________*/
-  /*BASELINE __________________*/
-  #section-1 {
-    position: relative;
-    top: 0%;
-    width: 92%;
-    margin: 0 auto;
-  }
-
-  #baseline {
-    margin-top: 23%;
-    display: block;
-  }
-
-  #relatif {
-    display: none;
-  }
-
-  #designer {}
-
-  #experiences {
-    text-align: left;
-  }
-
-  /* EXPERTISES __________________*/
-
-  #expertises {
-    padding-top: 5em;
-    max-width: 100%;
-    display: block;
-  }
-
-  .expertises {
-    display: flex;
-    margin-top: 2em;
-  }
-
-  .identitevisuelle, .medias, .print {
-    min-width: 100%;
-    margin-top: 3em;
-  }
-
-  .identitevisuelle hr, .medias hr, .print hr {
-    margin-top: 1.5em;
-  }
-
-  .expertises .expertise {
-    margin-right: 30px;
-  }
-
-  /*PROJETS ________________________________*/
-  #section-2{
-    margin-top: 15em;
-  }
-
-  .projet-slider {
-    padding-top: 3em;
-  }
-
-  #archive {
-    align-items: baseline;
-    display: block;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-
-  #archive h4 {
-    font-size: 1.5em;
-    padding-bottom: 0.5em;
-  }
-
-  #tagbouton {
-    margin-top: 2px;
-    grid-column: 1/4;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
-  #tagbouton .bouton-secondaire {
-    display: none;
-  }
-
-  #clientarchive {}
-
-  #datearchive {
-    font-size: 0.75em;
-    padding-bottom: 1em;
-  }
-
-  #clientarchive {}
-
-  /* BIOGRAPHIE ________________________________*/
-  #section-3 {
-    width: 92%;
-    margin: 0 auto;
-    padding-top: 10em;
-    padding-bottom: 30px;
-    display: block;
-  }
-  #section-3 h5{
-    opacity: 0.4;
-  }
-
-  #phototxt {
-    width: 100%;
-    grid-column: 1 / 5;
-    align-items: flex-end;
-    padding-bottom: 4em;
-  }
-
-  #biographie {
-    grid-column: 1 / 5;
-    text-align: left;
-  }
-
-  /* PHOTOS ________________________________ */
-  .audrey {
-    min-width: 70%;
-    margin-right: 4%;
-  }
-  .img-slider {
-    max-width: 400px;
-  }
-
-  .img-slider-vert {
-    max-width: 400px;
-  }
-
-  /* PAGE PROJET ________________________________ */
-  .projet {
-    display: block;
-  }
-
-  .galerie-projet {
-    width: 100%;
-    margin-top: 40px;
-    padding-left: 0;
-  }
-
-  .info-projet {
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .video-par2 {
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-  }
-
-  #musee-horiz {
-    width: 100%;
-    min-height: 500px;
-    margin-top: 20px;
-  }
-
-  #musee-carre {
-    width: 100%;
-    min-height: 500px;
-  }
-
-  #musee-vertical {
-    width: 100%;
-    min-height: 800px;
-  }
-}
-
-@media screen (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -263,252 +13,27 @@
   }
 
   h1 {
+    font-size: 8em;
+    line-height: 1.1em;
+  }
+
+  h2 {
     font-size: 5.5em;
-    line-height: 1.2em;
-  }
-
-  h2 {
-    font-size: 3.3em;
   }
 
   h3 {
-    font-size: 2em;
-    line-height: 2em;
-  }
-
-  h4 {
-    font-size: 1.4em;
-    line-height: 30px;
-  }
-
-  h5 {
-    font-size: 1em;
-    line-height: 1.3em;
-  }
-
-  h6 {
-    line-height: 2em;
-    font-size: 14px;
-  }
-
-  footer {
-    margin-top: 100px;
-    padding-bottom: 20px;
-  }
-
-  footer h2 {
-    margin-bottom: 80px;
-  }
-
-  #questioncontact {
-    display: none;
-  }
-
-  #moyenscontact {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .cafe, .telephone, .mail {
-    margin-top: 10px;
-  }
-
-  /* MENU ________________________________*/
-  .entree-menu {
-    margin-left: 50px;
-  }
-
-  .entree-menu a {
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-  }
-
-  /*HOME ________________________________*/
-  /*BASELINE____________________________________________________________________________________*/
-  #section-1 {
-    position: relative;
-    top: 50%;
-    width: 92%;
-    margin: 5%;
-  }
-
-  #baseline h1 {
-    font-size: 4.8em;
-    line-height: 1.2em;
-  }
-
-  .inline {
-    display: inline-flex;
-  }
-
-  #relatif {
-    position: relative;
-    top: 20%;
-    left: 10%;
-  }
-
-  #designer {
-    grid-column: 1 / 6;
-  }
-
-  #experiences {
-    grid-column: 2 / 7;
-  }
-
-  #expertises {
-    display: flex;
-    padding-top: 80px;
-    padding-bottom: 8em;
-  }
-
-  .expertises {
-    display: block;
-  }
-
-  .expertises .expertise {
-    margin-right: 0px;
-  }
-
-  /*PROJETS ________________________________*/
-  #archive {
-    align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  #clientarchive {
-    grid-column: 2 / 5;
-  }
-
-  #datearchive {
-    grid-column: 1;
-  }
-
-  #tagbouton {
-    align-items: baseline;
-    grid-column: 5/11;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #tagbouton .bouton-secondaire h5 {
-    display: none;
-  }
-
-  #clientarchive {
-    grid-column: 2 / 4;
-  }
-
-  /* BIOGRAPHIE ________________________________*/
-  #section-3 {
-    padding-top: 10em;
-    padding-bottom: 3em;
-    display: flex;
-  }
-  #section-3 h5{
-    opacity: 1;
-  }
-
-  #phototxt {
-    grid-column: 1 / 3;
-    align-items: flex-end;
-  }
-
-  #biographie {
-    grid-column: 4 / 7;
-    font-size: 2.5em;
-    line-height: 1.4em;
-  }
-
-  /* PHOTOS ________________________________ */
-  .img-slider {
-    max-width: 550px;
-  }
-
-  .img-slider-vert {
-    max-width: 350px;
-  }
-  .audrey {
-    min-width: 70%;
-    margin-right: 9%;
-  }
-
-  /* PAGE PROJET ________________________________________*/
-  .projet {
-    display: block;
-  }
-
-  .galerie-projet {
-    width: 100%;
-    margin-top: 40px;
-    padding-left: 0;
-  }
-
-  .info-projet {
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .video-par2 {
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  #musee-horiz {
-    width: 100%;
-    min-height: 500px;
-    margin-top: 20px;
-  }
-
-  #musee-carre, #musee-vertical {
-    width: 49%;
-    min-height: 450px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0px;
-  }
-
-  p {
-    font-size: 0.9em;
+    font-size: 2.8em;
     line-height: 1.5em;
   }
 
-  h1 {
-    font-size: 6em;
-    line-height: 0.9em;
-  }
-
-  h2 {
-    font-size: 4em;
-    font-weight: normal;
-  }
-
-  h3 {
-    font-size: 1.8em;
-    line-height: 2em;
-  }
-
   h4 {
-    line-height: 30px;
-    font-size: 1.3em;
+    font-size: 3em;
+    line-height: 1.5em;
   }
+
 
   h5 {
-    font-size: 0.9em;
+    font-size:1.6em;
     line-height: 1.5em;
   }
 
@@ -517,33 +42,33 @@
     font-size: 14px;
   }
 
+  /* FOOTER ________________________________*/
   footer {
-    margin-top: 3em;
-    padding-bottom: 30px;
+    margin-top: 5em;
+    margin-bottom: 10px;
   }
 
   footer h2 {
-    margin-bottom: 100px;
+    margin-bottom: 2em;
   }
 
   #questioncontact {
-    display: block;
     max-width: 130px;
-    padding-bottom: 10px;
+    display: none;
   }
 
   #moyenscontact {
-    display: flex;
+    display: block;
+
   }
 
   #infoscontact {
     display: flex;
-    align-items: flex-end;
   }
 
   .cafe, .telephone, .mail {
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
   }
 
   /* MENU ________________________________*/
@@ -564,47 +89,70 @@
   #section-1 {
     width: 92%;
     margin: 0 auto;
-  }
-
-  #baseline h1 {
-    font-size: 5.5em;
-    line-height: 1.2em;
-  }
-
-  .inline {
-    display: inline-flex;
+    padding-top: 10vh;
   }
 
   #relatif {
     position: relative;
     top: 40%;
-    left: 70px;
+    left: 20px;
+    display: none;
   }
 
   #designer {
-    grid-column: 1 / 9;
+    grid-column: 1 / 7;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  #me {
+    max-width: 100%;
   }
 
   #experiences {
-    grid-column: 3 / 11;
+    grid-column: 1 / 7;
+    text-align: left;
+    padding-top: 20px;
   }
 
   #expertises {
-    padding-top: 70px;
-    max-width: 60%;
-    padding-bottom: 8em;
+    padding-top: 7em;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 10em;
+  }
+
+  .expertises {
+    margin-top: 10px;
+    margin-right: 0px;
+    display: flex;
+  }
+  .expertise{
+    margin-right: 30px;
+  }
+
+  .identitevisuelle, .medias, .print {
+    margin-top: 30px;
+    margin-right: 0px;
   }
 
   /*PROJETS ________________________________*/
-  .projet-slider {
-    margin-left: 0;
+  /*REALISATIONS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #nav {
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 2em;
+    padding-top: 3em;
   }
 
   #archive {
     align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 0px;
+    display: block;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -619,44 +167,57 @@
 
   #tagbouton {
     align-items: baseline;
-    grid-column: 5/11;
+    grid-column: 6/11;
     display: flex;
     justify-content: space-between;
   }
 
   #tagbouton .bouton-secondaire h5 {
-    display: contents;
+    display: none;
   }
 
-  #clientarchive {
-    grid-column: 2 / 5;
-  }
-
-  /* BIOGRAPHIE ____________________________________________________________________________________*/
+  /*BIOGRAPHIE____________________________________________________________________________________*/
   #section-3 {
     padding-top: 10em;
-    padding-bottom: 3em;
-    display: flex;
-  }
-
-  #biographie {
-    grid-column: 7 / 11;
-    font-size: 2.5em;
-    line-height: 1.4em;
+    padding-bottom: 2em;
   }
 
   #phototxt {
     grid-column: 1 / 4;
     align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #phototxt img {
+    margin-right: 15%;
+  }
+
+  #biographie {
+    grid-column: 1 / 6;
+    text-align: left;
+    padding-top: 1em;
   }
 
   /* PHOTOS ________________________________ */
+  .logo {
+    max-width: 200px;
+    border-radius: 0px;
+  }
+
   .img-slider {
-    max-width: 700px;
+    max-width: 800px;
+  }
+
+  .fleche-rotate {
+    max-width: 20px;
   }
 
   .img-slider-vert {
-    max-width: 350px;
+    max-width: 450px;
+  }
+
+  .projet-slider img {
+    padding-bottom: 2em;
   }
 
   /* PAGE PROJET ________________________________________*/
@@ -666,7 +227,7 @@
   }
 
   .galerie-projet {
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
     margin-top: 0px;
   }
@@ -675,7 +236,7 @@
     display: block;
     width: 30%;
     margin-top: 20px;
-    align-items: top;
+    align-items: baseline;
     justify-content: flex-start;
     align-items: center;
     position: -webkit-sticky;
@@ -686,8 +247,10 @@
 
   .video-par2 {
     margin-top: 20px;
-    display: block;
+    display: flex;
     width: 100%;
+    object-fit: contain;
+    justify-content: space-between;
   }
 
   #musee-horiz {
@@ -696,18 +259,14 @@
     margin-top: 20px;
   }
 
-  #musee-carre {
-    width: 100%;
-    min-height: 500px;
-  }
-
-  #musee-vertical {
-    width: 100%;
-    min-height: 800px;
+  #musee-carre, #musee-vertical {
+    width: 49%;
+    min-height: 400px;
   }
 }
 
-@media (min-width: 1281px) {
+
+@media only screen and (min-width: 1024px) {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -725,12 +284,12 @@
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 5em;
   }
 
   h3 {
-    font-size: 2.2em;
-    line-height: 2em;
+    font-size: 1.7em;
+    line-height: 1.5em;
   }
 
   h4 {
@@ -738,8 +297,271 @@
     line-height: 30px;
   }
 
-  .projet-card h4 {
-    font-size: 2em;
+
+  h5 {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+
+  h6 {
+    line-height: 2em;
+    font-size: 14px;
+  }
+
+  /* FOOTER ________________________________*/
+  footer {
+    margin-top: 5em;
+    margin-bottom: 10px;
+  }
+
+  footer h2 {
+    margin-bottom: 2em;
+  }
+
+  #questioncontact {
+    max-width: 130px;
+    display: contents;
+  }
+
+  #moyenscontact {
+    display: flex;
+
+  }
+
+  #infoscontact {
+    display: flex;
+  }
+
+  .cafe, .telephone, .mail {
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+
+  /* MENU ________________________________*/
+  .entree-menu {
+    margin-left: 50px;
+  }
+
+  .entree-menu a {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+  }
+
+  /*HOME ________________________________*/
+  /*BASELINE____________________________________________________________________________________*/
+  #section-1 {
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 10vh;
+  }
+
+  #relatif {
+    position: relative;
+    top: 40%;
+    left: 20px;
+    display: contents;
+  }
+
+  #designer {
+    grid-column: 1 / 10;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  #me {
+    max-width: 80%;
+  }
+
+  #experiences {
+    grid-column: 2 / 11;
+    text-align: right;
+    padding-top: 20px;
+  }
+
+  #expertises {
+    padding-top: 7em;
+    max-width: 40%;
+    display: flex;
+    padding-bottom: 10em;
+  }
+
+  .expertises {
+    margin-top: 0px;
+    display: block;
+    margin-right: 0px;
+  }
+  .expertise{
+    margin-right: 0px;
+  }
+
+
+  .identitevisuelle, .medias, .print {
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+
+  /*PROJETS ________________________________*/
+  /*REALISATIONS ________________________________*/
+  #section-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #nav {
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 2em;
+    padding-top: 3em;
+  }
+
+  #archive {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #clientarchive {
+    grid-column: 2 / 5;
+  }
+
+  #datearchive {
+    grid-column: 1;
+  }
+
+  #tagbouton {
+    align-items: baseline;
+    grid-column: 6/11;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #tagbouton .bouton-secondaire h5 {
+    display: none;
+  }
+
+  /*BIOGRAPHIE____________________________________________________________________________________*/
+  #section-3 {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+
+  #phototxt {
+    grid-column: 1 / 4;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #phototxt img {
+    margin-right: 6%;
+  }
+
+  #biographie {
+    grid-column: 6 / 11;
+    text-align: right;
+    padding-top: 0em;
+  }
+
+  /* PHOTOS ________________________________ */
+  .logo {
+    max-width: 200px;
+    border-radius: 0px;
+  }
+
+  .img-slider {
+    max-width: 800px;
+  }
+
+  .fleche-rotate {
+    max-width: 20px;
+  }
+
+  .img-slider-vert {
+    max-width: 450px;
+  }
+
+  .projet-slider img {
+    padding-bottom: 2em;
+  }
+
+  /* PAGE PROJET ________________________________________*/
+  .projet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .galerie-projet {
+    width: 60%;
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+
+  .info-projet {
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+    align-items: baseline;
+    justify-content: flex-start;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+    height: 20%;
+  }
+
+  .video-par2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    object-fit: contain;
+    justify-content: space-between;
+  }
+
+  #musee-horiz {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+  }
+
+  #musee-carre, #musee-vertical {
+    width: 49%;
+    min-height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 0px;
+  }
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+
+  h1 {
+    font-size: 7em;
+    line-height: 1em;
+  }
+
+  h2 {
+    font-size: 5.5em;
+  }
+
+  h3 {
+    font-size: 2.2em;
+    line-height: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.3em;
     line-height: 30px;
   }
 
@@ -765,10 +587,12 @@
 
   #questioncontact {
     max-width: 130px;
+    display: contents;
   }
 
   #moyenscontact {
     display: flex;
+
   }
 
   #infoscontact {
@@ -777,6 +601,7 @@
 
   .cafe, .telephone, .mail {
     margin-left: 40px;
+    margin-top: 0px;
   }
 
   /* MENU ________________________________*/
@@ -794,18 +619,10 @@
 
   /*HOME ________________________________*/
   /*BASELINE____________________________________________________________________________________*/
-  #baseline h1 {
-    font-size: 7em;
-    line-height: 1em;
-  }
-
   #section-1 {
     width: 92%;
     margin: 0 auto;
-  }
-
-  .inline {
-    display: inline-flex;
+    padding-top: 10vh;
   }
 
   #relatif {
@@ -816,10 +633,16 @@
 
   #designer {
     grid-column: 1 / 9;
+    justify-content: space-between;
+  }
+
+  #me {
+    max-width: 80%;
   }
 
   #experiences {
     grid-column: 3 / 11;
+    text-align: right;
   }
 
   #expertises {
@@ -828,11 +651,30 @@
     display: flex;
     padding-bottom: 8em;
   }
-
+  .expertises {
+    margin-top: 10px;
+    margin-right: 0px;
+    display: block;
+  }
+  .expertise{
+    margin-right: 0px;
+  }
+  .identitevisuelle, .medias, .print {
+    margin-top: 30px;
+    margin-right: 0px;
+  }
   /*PROJETS ________________________________*/
+  /*REALISATIONS ________________________________*/
   #section-2 {
     width: 100%;
     margin: 0 auto;
+  }
+
+  #nav {
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 2em;
+    padding-top: 3em;
   }
 
   #archive {
@@ -863,10 +705,6 @@
     display: contents;
   }
 
-  #clientarchive {
-    grid-column: 2 / 5;
-  }
-
   /*BIOGRAPHIE____________________________________________________________________________________*/
   #section-3 {
     padding-top: 10em;
@@ -876,24 +714,40 @@
   #phototxt {
     grid-column: 1 / 4;
     align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #phototxt img {
+    margin-right: 6%;
   }
 
   #biographie {
-    font-size: 3.1em;
-    line-height: 1.4em;
     grid-column: 6 / 11;
+    text-align: right;
+    padding-top: 0em;
   }
 
   /* PHOTOS ________________________________ */
+  .logo {
+    max-width: 200px;
+    border-radius: 0px;
+  }
+
   .img-slider {
     max-width: 800px;
+  }
+
+  .fleche-rotate {
+    max-width: 20px;
   }
 
   .img-slider-vert {
     max-width: 450px;
   }
 
-  .projet-slider {}
+  .projet-slider img {
+    padding-bottom: 2em;
+  }
 
   /* PAGE PROJET ________________________________________*/
   .projet {
@@ -911,7 +765,7 @@
     display: block;
     width: 30%;
     margin-top: 20px;
-    align-items: top;
+    align-items: baseline;
     justify-content: flex-start;
     align-items: center;
     position: -webkit-sticky;

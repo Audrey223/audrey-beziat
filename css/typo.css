@@ -30,11 +30,6 @@ html {
   --p-font: 'Overpass Mono', monospace;
   --text-color-light: #FAF7F5; /*clair ancien :ECE8DF*/
   --text-color-dark: #121415;
-  --background-color: #121415;
-}
-
-body {
-  background-color: var(--background-color);
 }
 
 strong {
