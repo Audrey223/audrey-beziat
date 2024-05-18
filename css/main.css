@@ -8,7 +8,7 @@
   }
 
   p {
-    font-size: 1.7em;
+    font-size: 1.5em;
     line-height: 1.5em;
   }
 
@@ -67,7 +67,7 @@
   }
 
   .cafe, .telephone, .mail {
-    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 30px;
   }
 
@@ -166,6 +166,7 @@
 
   #datearchive {
     grid-column: 1;
+    font-size: 0.7em;
   }
 
   #tagbouton {
@@ -175,7 +176,7 @@
     justify-content: space-between;
   }
 
-  #tagbouton .bouton-secondaire h5 {
+  #tagbouton .bouton-secondaire {
     display: none;
   }
 
@@ -222,13 +223,22 @@
   .projet-slider img {
     padding-bottom: 2em;
   }
-
+  .projet-slider h4{
+    font-size: 4em;
+  }
   /* PAGE PROJET ________________________________________*/
   .projet {
     display: block;
     justify-content: space-between;
   }
+.projet p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.projet h1{
 
+  margin-bottom: 20px;
+}
   .galerie-projet {
     width: 100%;
     padding-left: 0%;
@@ -277,7 +287,7 @@
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 0.7em;
     line-height: 1.5em;
   }
 
@@ -323,12 +333,11 @@
 
   #questioncontact {
     max-width: 130px;
-    display: contents;
+    display: none;
   }
 
   #moyenscontact {
     display: flex;
-
   }
 
   #infoscontact {
@@ -336,7 +345,7 @@
   }
 
   .cafe, .telephone, .mail {
-    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 0px;
   }
 
@@ -435,6 +444,7 @@
 
   #datearchive {
     grid-column: 1;
+    font-size: 1.2em;
   }
 
   #tagbouton {
@@ -444,7 +454,7 @@
     justify-content: space-between;
   }
 
-  #tagbouton .bouton-secondaire h5 {
+  #tagbouton .bouton-secondaire {
     display: none;
   }
 
@@ -491,11 +501,22 @@
   .projet-slider img {
     padding-bottom: 2em;
   }
+  .projet-slider h4{
+    font-size: 2.5em;
+  }
 
   /* PAGE PROJET ________________________________________*/
   .projet {
     display: flex;
     justify-content: space-between;
+  }
+  .projet p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .projet h1{
+
+    margin-bottom: 0px;
   }
 
   .galerie-projet {
@@ -545,7 +566,7 @@
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 1.5em;
   }
 
@@ -555,7 +576,7 @@
   }
 
   h2 {
-    font-size: 5.5em;
+    font-size: 4.5em;
   }
 
   h3 {
@@ -603,7 +624,7 @@
   }
 
   .cafe, .telephone, .mail {
-    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 0px;
   }
 
@@ -695,6 +716,7 @@
 
   #datearchive {
     grid-column: 1;
+    font-size: 1.5em;
   }
 
   #tagbouton {
@@ -704,7 +726,7 @@
     justify-content: space-between;
   }
 
-  #tagbouton .bouton-secondaire h5 {
+  #tagbouton .bouton-secondaire {
     display: contents;
   }
 
@@ -751,13 +773,23 @@
   .projet-slider img {
     padding-bottom: 2em;
   }
-
+  .projet-slider h4{
+    font-size: 2.5em;
+  }
   /* PAGE PROJET ________________________________________*/
   .projet {
     display: flex;
     justify-content: space-between;
   }
 
+  .projet p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .projet h1{
+font-size: 6em;
+    margin-bottom: 20px;
+  }
   .galerie-projet {
     width: 60%;
     padding-left: 5%;
