@@ -70,6 +70,7 @@ margin-top: 10px;
   display: flex;
   padding-top: 10px;
   flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
 
@@ -94,7 +95,6 @@ margin-top: 10px;
 
 
 /*EXPERTISE____________________________________________________________________________________*/
-
 
 .identitevisuelle {
   min-width: 250px;
