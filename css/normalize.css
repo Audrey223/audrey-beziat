@@ -1,28 +1,30 @@
+html {
+  width: 100%;
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   font-size: 17px;
   background-color: var(--text-color-dark);
-  }
+}
 
 .color-color1 {
   background-color: var(--text-color-dark);
 }
+
 .color-color2 {
   background-color: var(--text-color-light);
 }
-.color-color3 {
-  background-color: #;}
-.color-color3 {
-  background-color: #;}
-.color-color4 {
-  background-color: #;}
-.color-color5 {
-  background-color: #;}
-.color-color6 {
-  background-color: #;
-}
+ul{
+  text-decoration: none;
 
+}
+li{
+  text-decoration: none;
+}
 hr {
   border: dashed 0.7px var(--text-color-light);
   opacity: 0.8;
@@ -31,13 +33,15 @@ hr {
 a:hover {
   cursor: pointer;
 }
-#link{
-  text-decoration: underline;
 
+#link {
+  text-decoration: underline;
 }
+
 #link:hover {
   cursor: pointer;
 }
+
 a {
   text-decoration: none;
   color: var(--text-color-light);
@@ -52,25 +56,26 @@ a {
   display: flex;
 }
 
-.bouton-secondaire{
+.bouton-secondaire {
   display: flex;
 }
-.sliderprojet hr{
+
+.sliderprojet hr {
   width: 92%;
   margin: 0 auto;
 }
 
 .tag {
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 5px;
-padding-bottom: 5px;
-border: 1px solid #878787;
-margin-right: 10px;
-margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #878787;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-.tags{
+.tags {
   display: flex;
   padding-top: 10px;
   flex-wrap: wrap;
@@ -79,47 +84,26 @@ margin-top: 10px;
 
 
 
-/*MENU____________________________________________________________________________________*/
-#header {
-  width: 92%;
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 2em;
-}
-#menu {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-#entrees {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
 /*EXPERTISE____________________________________________________________________________________*/
-
 .identitevisuelle {
   min-width: 250px;
 }
+
 .medias {
   min-width: 250px;
 }
+
 .print {
   min-width: 250px;
 }
 
 /*REALISATIONS____________________________________________________________________________________*/
-
-.space{
+.space {
   margin-top: 5em;
   margin-bottom: 2em;
 }
 
-
 /*Selection____________________________________________________________________________________*/
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 #nav {
@@ -131,17 +115,18 @@ button {
   border: none;
   cursor: pointer;
 }
-#up{
+
+#up {
   cursor: pointer;
   border: dashed 0.5px var(--text-color-light);
   align-items: center;
   justify-content: center;
-  position:fixed;
-  bottom : 0vh;
+  position: fixed;
+  bottom: 0vh;
   right: 0vh;
   padding: 20px;
-  index:999;
-  mix-blend-mode:multiply;
+  index: 999;
+  mix-blend-mode: multiply;
 }
 
 .container {
@@ -179,7 +164,7 @@ button {
   padding: 20px;
   width: fit-content;
   margin-left: 10px;
-  background-color: rgb(117 190 218 / 0%)  ;
+  background-color: rgb(117 190 218 / 0%);
   justify-content: flex-start;
 }
 
@@ -190,25 +175,12 @@ button {
 }
 
 .projet-card, .projet-card img {
-transition: all .5s ease ;
+  transition: all .5s ease;
 }
+
 .projet-card:hover {
   cursor: pointer;
   transform: scale(0.98);
-}
-.projet-card:hover img{
-
-}
-
-.decouvrir{
-
-opacity: 0%;
-margin-top: 20px;
-transition: all .4s ease-in-out ;
-}
-
-.projet-card:hover .decouvrir{
-opacity: 100%;
 }
 
 .image-container {
@@ -217,41 +189,39 @@ opacity: 100%;
 }
 
 .image-container img {
-  width: 900px;
+  max-width: 900px;
   height: 580px;
   display: block;
   object-fit: cover;
 }
 
-  .projet-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: fit-content;
-    gap: 10px;
-    margin-top: 10px;
-  }
+.projet-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  gap: 10px;
+  margin-top: 10px;
+}
 
-#realisations{
+#realisations {
   width: 92%;
   margin: 0 auto;
 }
 
 /*Archives____________________________________________________________________________________*/
-hr .archives{
+hr .archives {
   margin-top: 5em;
-  }
+}
 
-#archives{
+#archives {
   width: 92%;
-  margin:0 auto;
-  }
+  margin: 0 auto;
+}
 
-  #archives img{
-    padding-left: 0.75em;
-  }
-
-
+#archives img {
+  padding-left: 0.75em;
+}
 
 /*A PROPOS____________________________________________________________________________________*/
 #section-3 {
@@ -260,14 +230,11 @@ hr .archives{
   margin: 0 auto;
 }
 
-
-
 /*FOOTER____________________________________________________________________________________*/
 footer {
   width: 92%;
   margin: 0 auto;
 }
-
 
 .cafe, .telephone, .mail {
   display: block;
@@ -277,37 +244,31 @@ footer {
   justify-content: space-between;
 }
 
-
-
 /*PROJETS___________________*/
-
-.projet{
+.projet {
   width: 92%;
   margin: 0 auto;
   padding-top: 1em;
 }
 
-.date{
+.date {
   margin-bottom: 20px;
 }
-.client-date{
-display: flex;
-justify-content: space-between;
+
+.client-date {
+  display: flex;
+  justify-content: space-between;
 }
-.title{
+
+.title {
   padding-top: 10em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
-.projet-contact{
+
+.projet-contact {
   padding-top: 5em;
 }
-.galerie-projet-video{
+
+.galerie-projet-video {
   display: block;
-}
-
-
-/*SCROLL____________________________*/
-html {
-    --scroll-behavior: smooth;
-    scroll-behavior: smooth;
 }
