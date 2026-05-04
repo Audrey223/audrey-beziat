@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Lire JSON</title>
+</head>
+<body>
+  <h1 id="nom"></h1>
+  <p id="age"></p>
+  <p id="ville"></p>
+
+  <script>
+    fetch('position.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('nom').textContent = "Nom : " + data.nom;
+        document.getElementById('age').textContent = "Âge : " + data.age;
+        document.getElementById('ville').textContent = "Ville : " + data.ville;
+      })
+      .catch(error => console.error('Erreur :', error));
+  </script>
+</body>
+</html>
